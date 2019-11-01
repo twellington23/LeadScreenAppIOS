@@ -3,7 +3,7 @@
 //  LeadScreenApp
 //
 //  Created by Tyler Wellington on 11/1/19.
-//  Copyright © 2019 Tyler Wellington. All rights reserved.
+//  Copyright © 2019 Tyler Wellingtonm, Matthew Schultz, and Megha Patel. All rights reserved.
 //
 
 import UIKit
