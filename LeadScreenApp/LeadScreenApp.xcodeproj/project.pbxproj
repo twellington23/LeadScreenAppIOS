@@ -15,6 +15,7 @@
 		096C29C6236C6E55002969B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096C29C4236C6E55002969B6 /* LaunchScreen.storyboard */; };
 		096C29D1236C6E55002969B6 /* LeadScreenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29D0236C6E55002969B6 /* LeadScreenAppTests.swift */; };
 		096C29DC236C6E55002969B6 /* LeadScreenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */; };
+		7537B444236C779C00382C61 /* Notes.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7537B443236C779C00382C61 /* Notes.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		096C29D7236C6E55002969B6 /* LeadScreenAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeadScreenAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenAppUITests.swift; sourceTree = "<group>"; };
 		096C29DD236C6E55002969B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7537B443236C779C00382C61 /* Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Notes.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		096C29AD236C6E53002969B6 = {
 			isa = PBXGroup;
 			children = (
+				7537B443236C779C00382C61 /* Notes.rtf */,
 				096C29B8236C6E53002969B6 /* LeadScreenApp */,
 				096C29CF236C6E55002969B6 /* LeadScreenAppTests */,
 				096C29DA236C6E55002969B6 /* LeadScreenAppUITests */,
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7537B444236C779C00382C61 /* Notes.rtf in Resources */,
 				096C29C6236C6E55002969B6 /* LaunchScreen.storyboard in Resources */,
 				096C29C3236C6E55002969B6 /* Preview Assets.xcassets in Resources */,
 				096C29C0236C6E55002969B6 /* Assets.xcassets in Resources */,
