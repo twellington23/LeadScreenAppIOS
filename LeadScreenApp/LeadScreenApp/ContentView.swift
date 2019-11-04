@@ -22,7 +22,8 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            Text("Disclaimer")
+           DisclaimerView()
+
                 .font(.title)
                 .tabItem {
                     VStack {
@@ -52,6 +53,7 @@ struct ContentView: View {
         }
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
