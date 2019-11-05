@@ -3,7 +3,7 @@ This tool suggests how you may approach lead screening in many circumstances, bu
 
 Use this as a starting point and then tailor your care to your patient in your setting in your community with your resources.  Lead screening standards of care are often state-specific and even community-specific.  Be aware of those state and local standards.  And as always, do your own thinking.
 
-New York State Department of Health Guidelines for the Identification and Management of Lead Exposure in Children.  New York State Dept. of Health, Publication 2501, October 2011.  Accessed online May 19, 2012. www.health.ny.gov/publications/2501/
+Guidelines for Health Care Providers for the Prevention, Identification, and Management of Lead Exposure in Children. (2019, September). Retrieved November 5, 2019, from https://www.health.ny.gov/publications/6671.pdf. 
 
 Hurwitz, RL, Lee, DA. Childhood lead poisoning: clinical manifestations and diagnosis, table 3. In: UpToDate, Mahoney, DH, Ewald MB, Drutz, JE (editors). UpToDate, Waltham MA, April 2012.
 
