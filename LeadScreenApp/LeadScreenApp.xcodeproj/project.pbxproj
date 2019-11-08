@@ -16,6 +16,8 @@
 		096C29D1236C6E55002969B6 /* LeadScreenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29D0236C6E55002969B6 /* LeadScreenAppTests.swift */; };
 		096C29DC236C6E55002969B6 /* LeadScreenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */; };
 		759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759997232370786000FDC1C7 /* DisclaimerView.swift */; };
+		75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */; };
+		75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCD2375BAC6006BF2D8 /* WHW.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenAppUITests.swift; sourceTree = "<group>"; };
 		096C29DD236C6E55002969B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		759997232370786000FDC1C7 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenView.swift; sourceTree = "<group>"; };
+		75AF2DCD2375BAC6006BF2D8 /* WHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHW.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +111,8 @@
 				096C29BB236C6E53002969B6 /* SceneDelegate.swift */,
 				096C29BD236C6E53002969B6 /* ContentView.swift */,
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
+				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
+				75AF2DCD2375BAC6006BF2D8 /* WHW.swift */,
 				096C29BF236C6E55002969B6 /* Assets.xcassets */,
 				096C29C4236C6E55002969B6 /* LaunchScreen.storyboard */,
 				096C29C7236C6E55002969B6 /* Info.plist */,
@@ -277,6 +283,8 @@
 				096C29BA236C6E53002969B6 /* AppDelegate.swift in Sources */,
 				096C29BC236C6E53002969B6 /* SceneDelegate.swift in Sources */,
 				096C29BE236C6E53002969B6 /* ContentView.swift in Sources */,
+				75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */,
+				75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */,
 				759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
