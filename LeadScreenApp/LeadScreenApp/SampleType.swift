@@ -16,17 +16,17 @@ struct SampleType: View {
             UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
-        NavigationView{
+       
             VStack(spacing: 20){
                 Text("\n")
                 Text("Is the sample from venous phlebotomy or from capillary fingerstick?")
                     .font(.subheadline)
                 List{
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Capillary()){
                         Text("Capillary Test")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Venous()){
                         Text("Venous Test")
                             .font(.body)
                     }
@@ -37,7 +37,7 @@ struct SampleType: View {
                 
             }
             
-        }
+        
         
     }
 }

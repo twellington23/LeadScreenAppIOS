@@ -9,21 +9,21 @@
 import SwiftUI
 
 
-struct Capillary: View {
+struct Venous: View {
     @State private var selection = 0
     
     init(){
             UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
-        
+    
             VStack(spacing: 20){
                 Text("\n")
-                Text("Select the lead level result (ug/dL):")
+                Text("Is the sample from venous phlebotomy or from capillary fingerstick?")
                     .font(.subheadline)
                 List{
-                    NavigationLink(destination: LeadScreenView()){
-                        Text("< 5 ug/dL")
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("Capillary Test")
                             .font(.body)
                     }
                     NavigationLink(destination: ExposureSurvey()){
@@ -32,7 +32,7 @@ struct Capillary: View {
                     }
                    
                     
-                } .navigationBarTitle(Text("Capillary sample"), displayMode: .inline)
+                } .navigationBarTitle(Text("Venous Sample"), displayMode: .inline)
                 Text("*  Subsequently, Blood Lead Level frequently abbreviated BLL")
                 
             }

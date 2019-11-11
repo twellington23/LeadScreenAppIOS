@@ -20,6 +20,8 @@
 		75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCD2375BAC6006BF2D8 /* WHW.swift */; };
 		75AF2DD02375C048006BF2D8 /* ExposureSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCF2375C048006BF2D8 /* ExposureSurvey.swift */; };
 		75AF2DD42379AC40006BF2D8 /* SampleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD32379AC3F006BF2D8 /* SampleType.swift */; };
+		75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD52379AC9E006BF2D8 /* Capillary.swift */; };
+		75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD72379ACAB006BF2D8 /* Venous.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +62,8 @@
 		75AF2DCD2375BAC6006BF2D8 /* WHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHW.swift; sourceTree = "<group>"; };
 		75AF2DCF2375C048006BF2D8 /* ExposureSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureSurvey.swift; sourceTree = "<group>"; };
 		75AF2DD32379AC3F006BF2D8 /* SampleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleType.swift; sourceTree = "<group>"; };
+		75AF2DD52379AC9E006BF2D8 /* Capillary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capillary.swift; sourceTree = "<group>"; };
+		75AF2DD72379ACAB006BF2D8 /* Venous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venous.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +121,8 @@
 				096C29BD236C6E53002969B6 /* ContentView.swift */,
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
 				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
+				75AF2DD52379AC9E006BF2D8 /* Capillary.swift */,
+				75AF2DD72379ACAB006BF2D8 /* Venous.swift */,
 				75AF2DCD2375BAC6006BF2D8 /* WHW.swift */,
 				096C29BF236C6E55002969B6 /* Assets.xcassets */,
 				096C29C4236C6E55002969B6 /* LaunchScreen.storyboard */,
@@ -288,8 +294,10 @@
 			files = (
 				096C29BA236C6E53002969B6 /* AppDelegate.swift in Sources */,
 				096C29BC236C6E53002969B6 /* SceneDelegate.swift in Sources */,
+				75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */,
 				096C29BE236C6E53002969B6 /* ContentView.swift in Sources */,
 				75AF2DD42379AC40006BF2D8 /* SampleType.swift in Sources */,
+				75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */,
 				75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */,
 				75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */,
 				75AF2DD02375C048006BF2D8 /* ExposureSurvey.swift in Sources */,

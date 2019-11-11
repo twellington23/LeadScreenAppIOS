@@ -16,7 +16,7 @@ struct ExposureSurvey: View {
             UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
-        NavigationView{
+        
             VStack(spacing: 10){
                             
                 Text("Survey Stuff")
@@ -26,7 +26,7 @@ struct ExposureSurvey: View {
                 } .navigationBarTitle(Text("Risk Survey"), displayMode: .inline)
             
             
-        }
+        
         
     }
 }

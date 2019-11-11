@@ -26,7 +26,7 @@ struct LeadScreenView: View {
                         Text("Who, How, When to Screen")
                             .font(.body)
                     }
-                    NavigationLink(destination: Capillary()){
+                    NavigationLink(destination: SampleType()){
                         Text("How to Manage Lead Levels")
                             .font(.body)
                     }
