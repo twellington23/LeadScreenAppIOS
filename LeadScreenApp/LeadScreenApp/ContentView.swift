@@ -10,6 +10,10 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 0
+    
+//    init(){
+//        disclaimerAlert()
+//    }
  
     var body: some View {
         TabView(selection: $selection){
@@ -59,4 +63,10 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
+
+func disclaimerAlert() {
+    let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
+    alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+    alertController.present(alertController, animated: true, completion: nil)
 }

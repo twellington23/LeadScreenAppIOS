@@ -15,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+     
+//            let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
+//            alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+//            alertController.present(alertController, animated: true, completion: nil)
+        
         return true
     }
 

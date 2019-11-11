@@ -21,6 +21,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Create the SwiftUI view that provides the window contents.
 
+        
+//            let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
+//            alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+//            alertController.present(alertController, animated: true, completion: nil)
+
+        
         let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
