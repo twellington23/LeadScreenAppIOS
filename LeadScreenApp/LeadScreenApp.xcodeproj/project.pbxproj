@@ -22,6 +22,7 @@
 		75AF2DD42379AC40006BF2D8 /* SampleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD32379AC3F006BF2D8 /* SampleType.swift */; };
 		75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD52379AC9E006BF2D8 /* Capillary.swift */; };
 		75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD72379ACAB006BF2D8 /* Venous.swift */; };
+		75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		75AF2DD32379AC3F006BF2D8 /* SampleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleType.swift; sourceTree = "<group>"; };
 		75AF2DD52379AC9E006BF2D8 /* Capillary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capillary.swift; sourceTree = "<group>"; };
 		75AF2DD72379ACAB006BF2D8 /* Venous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venous.swift; sourceTree = "<group>"; };
+		75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleManagement.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +125,7 @@
 				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
 				75AF2DD52379AC9E006BF2D8 /* Capillary.swift */,
 				75AF2DD72379ACAB006BF2D8 /* Venous.swift */,
+				75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */,
 				75AF2DCD2375BAC6006BF2D8 /* WHW.swift */,
 				096C29BF236C6E55002969B6 /* Assets.xcassets */,
 				096C29C4236C6E55002969B6 /* LaunchScreen.storyboard */,
@@ -302,6 +305,7 @@
 				75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */,
 				75AF2DD02375C048006BF2D8 /* ExposureSurvey.swift in Sources */,
 				759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */,
+				75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

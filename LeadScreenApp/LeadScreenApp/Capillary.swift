@@ -22,18 +22,40 @@ struct Capillary: View {
                 Text("Select the lead level result (ug/dL):")
                     .font(.subheadline)
                 List{
-                    NavigationLink(destination: LeadScreenView()){
+                    NavigationLink(destination: SampleManagement()){
                         Text("< 5 ug/dL")
                             .font(.body)
                     }
                     NavigationLink(destination: ExposureSurvey()){
-                        Text("Venous Test")
+                        Text("5-9")
                             .font(.body)
                     }
-                   
-                    
+                   NavigationLink(destination: ExposureSurvey()){
+                       Text("10-14")
+                           .font(.body)
+                   }
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("15-24")
+                            .font(.body)
+                    }
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("25-44")
+                            .font(.body)
+                    }
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("45-59")
+                            .font(.body)
+                    }
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("60-69")
+                            .font(.body)
+                    }
+                    NavigationLink(destination: ExposureSurvey()){
+                        Text("≥ 70")
+                            .font(.body)
+                    }
                 } .navigationBarTitle(Text("Capillary sample"), displayMode: .inline)
-                Text("*  Subsequently, Blood Lead Level frequently abbreviated BLL")
+            
                 
             }
             

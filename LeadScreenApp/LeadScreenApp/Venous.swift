@@ -21,20 +21,42 @@ struct Venous: View {
                 Text("\n")
                 Text("Is the sample from venous phlebotomy or from capillary fingerstick?")
                     .font(.subheadline)
-                List{
-                    NavigationLink(destination: ExposureSurvey()){
-                        Text("Capillary Test")
-                            .font(.body)
-                    }
-                    NavigationLink(destination: ExposureSurvey()){
-                        Text("Venous Test")
-                            .font(.body)
-                    }
-                   
+               List{
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("< 5 ug/dL")
+                         .font(.body)
+                 }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("5-9")
+                         .font(.body)
+                 }
+                NavigationLink(destination: ExposureSurvey()){
+                    Text("10-14")
+                        .font(.body)
+                }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("15-24")
+                         .font(.body)
+                 }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("25-44")
+                         .font(.body)
+                 }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("45-59")
+                         .font(.body)
+                 }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("60-69")
+                         .font(.body)
+                 }
+                 NavigationLink(destination: ExposureSurvey()){
+                     Text("≥ 70")
+                         .font(.body)
+                 }
                     
                 } .navigationBarTitle(Text("Venous Sample"), displayMode: .inline)
-                Text("*  Subsequently, Blood Lead Level frequently abbreviated BLL")
-                
+            
             }
             
         

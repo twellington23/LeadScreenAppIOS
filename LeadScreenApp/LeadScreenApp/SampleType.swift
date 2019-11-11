@@ -30,10 +30,10 @@ struct SampleType: View {
                         Text("Venous Test")
                             .font(.body)
                     }
-                   
+                    Text("*  Subsequently, Blood Lead Level frequently abbreviated BLL").font(.footnote)
                     
                 } .navigationBarTitle(Text("Capillary vs. Venous"), displayMode: .inline)
-                Text("*  Subsequently, Blood Lead Level frequently abbreviated BLL")
+             
                 
             }
             
