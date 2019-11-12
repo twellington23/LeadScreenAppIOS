@@ -23,6 +23,7 @@
 		75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD52379AC9E006BF2D8 /* Capillary.swift */; };
 		75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD72379ACAB006BF2D8 /* Venous.swift */; };
 		75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */; };
+		75AF2DDC237B1562006BF2D8 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DDB237B1562006BF2D8 /* AboutApp.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		75AF2DD52379AC9E006BF2D8 /* Capillary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capillary.swift; sourceTree = "<group>"; };
 		75AF2DD72379ACAB006BF2D8 /* Venous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venous.swift; sourceTree = "<group>"; };
 		75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleManagement.swift; sourceTree = "<group>"; };
+		75AF2DDB237B1562006BF2D8 /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 				096C29BB236C6E53002969B6 /* SceneDelegate.swift */,
 				096C29BD236C6E53002969B6 /* ContentView.swift */,
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
+				75AF2DDB237B1562006BF2D8 /* AboutApp.swift */,
 				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
 				75AF2DD52379AC9E006BF2D8 /* Capillary.swift */,
 				75AF2DD72379ACAB006BF2D8 /* Venous.swift */,
@@ -304,6 +307,7 @@
 				75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */,
 				75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */,
 				75AF2DD02375C048006BF2D8 /* ExposureSurvey.swift in Sources */,
+				75AF2DDC237B1562006BF2D8 /* AboutApp.swift in Sources */,
 				759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */,
 				75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */,
 			);
