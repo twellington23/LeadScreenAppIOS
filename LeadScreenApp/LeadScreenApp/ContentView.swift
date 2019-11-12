@@ -36,7 +36,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(1)
-            Text("About App")
+            AboutApp()
                 .font(.title)
                 .tabItem {
                     VStack {
