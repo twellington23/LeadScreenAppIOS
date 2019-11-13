@@ -22,35 +22,35 @@ struct Venous: View {
                 Text("Is the sample from venous phlebotomy or from capillary fingerstick?")
                     .font(.subheadline)
                List{
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven5()){
                      Text("< 5 ug/dL")
                          .font(.body)
                  }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven9()){
                      Text("5-9")
                          .font(.body)
                  }
-                NavigationLink(destination: ExposureSurvey()){
+                NavigationLink(destination: Ven14()){
                     Text("10-14")
                         .font(.body)
                 }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven24()){
                      Text("15-24")
                          .font(.body)
                  }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven44()){
                      Text("25-44")
                          .font(.body)
                  }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven59()){
                      Text("45-59")
                          .font(.body)
                  }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven69()){
                      Text("60-69")
                          .font(.body)
                  }
-                 NavigationLink(destination: ExposureSurvey()){
+                 NavigationLink(destination: Ven70()){
                      Text("≥ 70")
                          .font(.body)
                  }

@@ -25,7 +25,6 @@ struct DisclaimerView: View {
             }
             
         }.padding()
-.padding()
     }
 }
 
