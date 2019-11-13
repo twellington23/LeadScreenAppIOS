@@ -65,8 +65,8 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-func disclaimerAlert() {
-    let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
-    alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-    alertController.present(alertController, animated: true, completion: nil)
-}
+//func disclaimerAlert() {
+//    let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
+//    alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+//    alertController.present(alertController, animated: true, completion: nil)
+//}
