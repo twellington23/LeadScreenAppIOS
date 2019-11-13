@@ -26,12 +26,8 @@ struct Capillary: View {
                         Text("< 5 ug/dL")
                             .font(.body)
                     }
-                    NavigationLink(destination: Cap9ug()){
-                        Text("5-9")
-                            .font(.body)
-                    }
                    NavigationLink(destination: Cap14()){
-                       Text("10-14")
+                       Text("5-14")
                            .font(.body)
                    }
                     NavigationLink(destination: Cap24()){
@@ -42,12 +38,9 @@ struct Capillary: View {
                         Text("25-44")
                             .font(.body)
                     }
-                    NavigationLink(destination: Cap59()){
-                        Text("45-59")
-                            .font(.body)
-                    }
+
                     NavigationLink(destination: Cap69()){
-                        Text("60-69")
+                        Text("45-69")
                             .font(.body)
                     }
                     NavigationLink(destination: Cap70()){

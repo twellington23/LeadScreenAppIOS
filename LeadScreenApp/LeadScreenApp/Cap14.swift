@@ -28,7 +28,7 @@ struct Cap14: View {
                 Text("health.ny.gov/publications/2526.pdf").font(.subheadline)
                 }
                     
-                } .navigationBarTitle(Text("Capillary: 10-14 ug/dL"), displayMode: .inline).padding()
+                } .navigationBarTitle(Text("Capillary: 5-14 ug/dL"), displayMode: .inline).padding()
             
         }
         

@@ -25,11 +25,9 @@
 		75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */; };
 		75AF2DDC237B1562006BF2D8 /* AboutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DDB237B1562006BF2D8 /* AboutApp.swift */; };
 		75AF2DDE237C4B79006BF2D8 /* Cap5ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DDD237C4B79006BF2D8 /* Cap5ug.swift */; };
-		75AF2DE0237C4BB8006BF2D8 /* Cap9ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DDF237C4BB8006BF2D8 /* Cap9ug.swift */; };
 		75AF2DE2237C4C32006BF2D8 /* Cap14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE1237C4C32006BF2D8 /* Cap14.swift */; };
 		75AF2DE4237C4C8F006BF2D8 /* Cap24.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE3237C4C8F006BF2D8 /* Cap24.swift */; };
 		75AF2DE6237C4CD4006BF2D8 /* Cap44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE5237C4CD4006BF2D8 /* Cap44.swift */; };
-		75AF2DE8237C4D10006BF2D8 /* Cap59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE7237C4D10006BF2D8 /* Cap59.swift */; };
 		75AF2DEA237C4D59006BF2D8 /* Cap69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE9237C4D59006BF2D8 /* Cap69.swift */; };
 		75AF2DEC237C4D9A006BF2D8 /* Cap70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DEB237C4D9A006BF2D8 /* Cap70.swift */; };
 		75AF2DEE237C56D6006BF2D8 /* DiffGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */; };
@@ -37,9 +35,7 @@
 		75AF2DF8237C5943006BF2D8 /* Ven69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF0237C5940006BF2D8 /* Ven69.swift */; };
 		75AF2DF9237C5943006BF2D8 /* Ven70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF1237C5941006BF2D8 /* Ven70.swift */; };
 		75AF2DFA237C5943006BF2D8 /* Ven14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF2237C5941006BF2D8 /* Ven14.swift */; };
-		75AF2DFB237C5943006BF2D8 /* Ven59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF3237C5942006BF2D8 /* Ven59.swift */; };
 		75AF2DFC237C5943006BF2D8 /* Ven5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF4237C5942006BF2D8 /* Ven5.swift */; };
-		75AF2DFD237C5943006BF2D8 /* Ven9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF5237C5942006BF2D8 /* Ven9.swift */; };
 		75AF2DFE237C5943006BF2D8 /* Ven44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DF6237C5943006BF2D8 /* Ven44.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
@@ -86,11 +82,9 @@
 		75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleManagement.swift; sourceTree = "<group>"; };
 		75AF2DDB237B1562006BF2D8 /* AboutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApp.swift; sourceTree = "<group>"; };
 		75AF2DDD237C4B79006BF2D8 /* Cap5ug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap5ug.swift; sourceTree = "<group>"; };
-		75AF2DDF237C4BB8006BF2D8 /* Cap9ug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap9ug.swift; sourceTree = "<group>"; };
 		75AF2DE1237C4C32006BF2D8 /* Cap14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap14.swift; sourceTree = "<group>"; };
 		75AF2DE3237C4C8F006BF2D8 /* Cap24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap24.swift; sourceTree = "<group>"; };
 		75AF2DE5237C4CD4006BF2D8 /* Cap44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap44.swift; sourceTree = "<group>"; };
-		75AF2DE7237C4D10006BF2D8 /* Cap59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap59.swift; sourceTree = "<group>"; };
 		75AF2DE9237C4D59006BF2D8 /* Cap69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap69.swift; sourceTree = "<group>"; };
 		75AF2DEB237C4D9A006BF2D8 /* Cap70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap70.swift; sourceTree = "<group>"; };
 		75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffGuide.swift; sourceTree = "<group>"; };
@@ -98,9 +92,7 @@
 		75AF2DF0237C5940006BF2D8 /* Ven69.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven69.swift; sourceTree = "<group>"; };
 		75AF2DF1237C5941006BF2D8 /* Ven70.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven70.swift; sourceTree = "<group>"; };
 		75AF2DF2237C5941006BF2D8 /* Ven14.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven14.swift; sourceTree = "<group>"; };
-		75AF2DF3237C5942006BF2D8 /* Ven59.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven59.swift; sourceTree = "<group>"; };
 		75AF2DF4237C5942006BF2D8 /* Ven5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven5.swift; sourceTree = "<group>"; };
-		75AF2DF5237C5942006BF2D8 /* Ven9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven9.swift; sourceTree = "<group>"; };
 		75AF2DF6237C5943006BF2D8 /* Ven44.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ven44.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,11 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				75AF2DF4237C5942006BF2D8 /* Ven5.swift */,
-				75AF2DF5237C5942006BF2D8 /* Ven9.swift */,
 				75AF2DF2237C5941006BF2D8 /* Ven14.swift */,
 				75AF2DEF237C5940006BF2D8 /* Ven24.swift */,
 				75AF2DF6237C5943006BF2D8 /* Ven44.swift */,
-				75AF2DF3237C5942006BF2D8 /* Ven59.swift */,
 				75AF2DF0237C5940006BF2D8 /* Ven69.swift */,
 				75AF2DF1237C5941006BF2D8 /* Ven70.swift */,
 				75AF2DD32379AC3F006BF2D8 /* SampleType.swift */,
@@ -171,11 +161,9 @@
 				75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */,
 				75AF2DD52379AC9E006BF2D8 /* Capillary.swift */,
 				75AF2DE1237C4C32006BF2D8 /* Cap14.swift */,
-				75AF2DDF237C4BB8006BF2D8 /* Cap9ug.swift */,
 				75AF2DD72379ACAB006BF2D8 /* Venous.swift */,
 				75AF2DD92379E4CC006BF2D8 /* SampleManagement.swift */,
 				75AF2DE5237C4CD4006BF2D8 /* Cap44.swift */,
-				75AF2DE7237C4D10006BF2D8 /* Cap59.swift */,
 				75AF2DE9237C4D59006BF2D8 /* Cap69.swift */,
 				75AF2DEB237C4D9A006BF2D8 /* Cap70.swift */,
 				75AF2DE3237C4C8F006BF2D8 /* Cap24.swift */,
@@ -354,8 +342,6 @@
 				75AF2DF8237C5943006BF2D8 /* Ven69.swift in Sources */,
 				096C29BA236C6E53002969B6 /* AppDelegate.swift in Sources */,
 				75AF2DDE237C4B79006BF2D8 /* Cap5ug.swift in Sources */,
-				75AF2DE0237C4BB8006BF2D8 /* Cap9ug.swift in Sources */,
-				75AF2DE8237C4D10006BF2D8 /* Cap59.swift in Sources */,
 				096C29BC236C6E53002969B6 /* SceneDelegate.swift in Sources */,
 				75AF2DFE237C5943006BF2D8 /* Ven44.swift in Sources */,
 				75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */,
@@ -365,7 +351,6 @@
 				75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */,
 				75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */,
 				75AF2DF9237C5943006BF2D8 /* Ven70.swift in Sources */,
-				75AF2DFD237C5943006BF2D8 /* Ven9.swift in Sources */,
 				75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */,
 				75AF2DE2237C4C32006BF2D8 /* Cap14.swift in Sources */,
 				75AF2DE6237C4CD4006BF2D8 /* Cap44.swift in Sources */,
@@ -375,7 +360,6 @@
 				75AF2DFC237C5943006BF2D8 /* Ven5.swift in Sources */,
 				75AF2DEA237C4D59006BF2D8 /* Cap69.swift in Sources */,
 				75AF2DFA237C5943006BF2D8 /* Ven14.swift in Sources */,
-				75AF2DFB237C5943006BF2D8 /* Ven59.swift in Sources */,
 				75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */,
 				75AF2DF7237C5943006BF2D8 /* Ven24.swift in Sources */,
 			);

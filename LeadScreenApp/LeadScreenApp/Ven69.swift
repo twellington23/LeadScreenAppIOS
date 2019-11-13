@@ -28,7 +28,7 @@ struct Ven69: View {
                 Text("health.ny.gov/publications/2526.pdf").font(.subheadline)
                 }
                     
-                } .navigationBarTitle(Text("Venous: 60-69 ug/dL"), displayMode: .inline).padding()
+                } .navigationBarTitle(Text("Venous: 45-69 ug/dL"), displayMode: .inline).padding()
             
         }
         

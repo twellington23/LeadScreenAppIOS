@@ -26,12 +26,9 @@ struct Venous: View {
                      Text("< 5 ug/dL")
                          .font(.body)
                  }
-                 NavigationLink(destination: Ven9()){
-                     Text("5-9")
-                         .font(.body)
-                 }
+            
                 NavigationLink(destination: Ven14()){
-                    Text("10-14")
+                    Text("5-14")
                         .font(.body)
                 }
                  NavigationLink(destination: Ven24()){
@@ -42,12 +39,9 @@ struct Venous: View {
                      Text("25-44")
                          .font(.body)
                  }
-                 NavigationLink(destination: Ven59()){
-                     Text("45-59")
-                         .font(.body)
-                 }
+            
                  NavigationLink(destination: Ven69()){
-                     Text("60-69")
+                     Text("45-69")
                          .font(.body)
                  }
                  NavigationLink(destination: Ven70()){
