@@ -19,11 +19,17 @@ struct Cap5ug: View {
         ScrollView{
             VStack(spacing: 10){
                 Text("").font(.headline)
-                Text("How soon confirm with venous testing?\n- No confirmation needed.\n\nWhen to retest with venous testing?\n- May continue to use capillary testing.  See management which is retesting as appropriate.\n\nManagement\n- Test all children at age 1 year and again at 2 years, regardless of initial result.  If child < 6 years, assess risk at next well child visit, and test again if lead risk found.\n- Provide education such as 'What Your Child's Blood Lead Test Means' at health.ny.gov/publications/2526.pdf")
-                    .font(.subheadline).padding()
+                Text("How soon confirm with venous testing?\n- No confirmation needed.\n\nWhen to retest with venous testing?\n- May continue to use capillary testing.  See management which is retesting as appropriate.\n\nManagement\n- Test all children at age 1 year and again at 2 years, regardless of initial result.  If child < 6 years, assess risk at next well child visit, and test again if lead risk found.\n- Provide education such as 'What Your Child's Blood Lead Test Means' at")
+                    .font(.subheadline)
+                Button(action: {
+
+                    UIApplication.shared.openURL(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
+                }) {
+                Text("health.ny.gov/publications/2526.pdf").font(.subheadline)
+                }
                    
                     
-                } .navigationBarTitle(Text("Capillary: <5 ug/dL"), displayMode: .inline)
+                } .navigationBarTitle(Text("Capillary: <5 ug/dL"), displayMode: .inline).padding()
             
         }
         
