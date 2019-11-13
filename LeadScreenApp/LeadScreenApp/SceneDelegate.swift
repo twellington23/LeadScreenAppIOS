@@ -20,12 +20,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-
-        
-//            let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
-//            alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-//            alertController.present(alertController, animated: true, completion: nil)
-
         
         let contentView = ContentView()
 

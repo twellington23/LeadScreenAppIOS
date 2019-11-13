@@ -15,23 +15,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: UIAlertController.Style.alert)
-                alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
-                UIApplication.shared.keyWindow?.rootViewController?.present(alertController, animated: true, completion: nil)
 
-                //alertController.present(alertController, animated: true, completion: nil)
-                
-        //        let alertWindow = UIWindow(frame: UIScreen.main.bounds)
-        //        alertWindow.rootViewController = UIViewController()
-        //        alertWindow.windowLevel = UIWindow.Level.alert + 1;
-        //        alertWindow.makeKeyAndVisible()
-        //        alertWindow.rootViewController?.present(alertController, animated: true, completion: nil)
-             
-        //            let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
-        //            alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
-        //            alertController.present(alertController, animated: true, completion: nil)
+        let alert = AlertController()
+        alert.showAlert()
         
+//        let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: UIAlertController.Style.alert)
+//        alertController.addAction(UIAlertAction(title: "Dismiss", style: UIAlertAction.Style.default, handler: nil))
+//        UIApplication.shared.keyWindow?.rootViewController?.present(alertController, animated: true, completion: nil)
+//
+//        alertController.present(alertController, animated: true, completion: nil)
+//
+//        let alertWindow = UIWindow(frame: UIScreen.main.bounds)
+//        alertWindow.rootViewController = UIViewController()
+//        alertWindow.windowLevel = UIWindow.Level.alert + 1;
+//        alertWindow.makeKeyAndVisible()
+//        alertWindow.rootViewController?.present(alertController, animated: true, completion: nil)
+//
+//        let alertController = UIAlertController(title: "Alert", message: "This is an alert.", preferredStyle: .alert)
+//        alertController.addAction(UIAlertAction(title: "Click", style: UIAlertAction.Style.default, handler: nil))
+//        alertController.present(alertController, animated: true, completion: nil)
+
         return true
     }
 

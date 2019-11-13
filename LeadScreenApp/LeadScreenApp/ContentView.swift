@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var selection = 0
     @State private var isAlert = false
+    
 //    init(){
 //        disclaimerAlert()
 //    }
