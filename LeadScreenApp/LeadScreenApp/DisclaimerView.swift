@@ -13,8 +13,8 @@ struct DisclaimerView: View {
     
     var body: some View {
         VStack(alignment: .leading) {
-                       Text("Disclaimer")
-                           .font(.title)
+                    Text("Disclaimer")
+                    .font(.title)
         ScrollView{
            
                 //                Spacer()
@@ -25,6 +25,7 @@ struct DisclaimerView: View {
             }
             
         }.padding()
+.padding()
     }
 }
 

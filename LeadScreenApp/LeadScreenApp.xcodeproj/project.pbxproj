@@ -32,6 +32,7 @@
 		75AF2DE8237C4D10006BF2D8 /* Cap59.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE7237C4D10006BF2D8 /* Cap59.swift */; };
 		75AF2DEA237C4D59006BF2D8 /* Cap69.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DE9237C4D59006BF2D8 /* Cap69.swift */; };
 		75AF2DEC237C4D9A006BF2D8 /* Cap70.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DEB237C4D9A006BF2D8 /* Cap70.swift */; };
+		75AF2DEE237C56D6006BF2D8 /* DiffGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */; };
 		75CD4A6B2371CE640069EEB1 /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 75CD4A6A2371CE640069EEB1 /* notes.txt */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		75AF2DE7237C4D10006BF2D8 /* Cap59.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap59.swift; sourceTree = "<group>"; };
 		75AF2DE9237C4D59006BF2D8 /* Cap69.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap69.swift; sourceTree = "<group>"; };
 		75AF2DEB237C4D9A006BF2D8 /* Cap70.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cap70.swift; sourceTree = "<group>"; };
+		75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffGuide.swift; sourceTree = "<group>"; };
 		75CD4A6A2371CE640069EEB1 /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
 				75AF2DDB237B1562006BF2D8 /* AboutApp.swift */,
 				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
+				75AF2DED237C56D6006BF2D8 /* DiffGuide.swift */,
 				75AF2DD52379AC9E006BF2D8 /* Capillary.swift */,
 				75AF2DE1237C4C32006BF2D8 /* Cap14.swift */,
 				75AF2DDF237C4BB8006BF2D8 /* Cap9ug.swift */,
@@ -330,6 +333,7 @@
 				75AF2DE8237C4D10006BF2D8 /* Cap59.swift in Sources */,
 				096C29BC236C6E53002969B6 /* SceneDelegate.swift in Sources */,
 				75AF2DD62379AC9E006BF2D8 /* Capillary.swift in Sources */,
+				75AF2DEE237C56D6006BF2D8 /* DiffGuide.swift in Sources */,
 				096C29BE236C6E53002969B6 /* ContentView.swift in Sources */,
 				75AF2DD42379AC40006BF2D8 /* SampleType.swift in Sources */,
 				75AF2DD82379ACAB006BF2D8 /* Venous.swift in Sources */,

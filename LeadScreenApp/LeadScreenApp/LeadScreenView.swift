@@ -43,7 +43,10 @@ struct LeadScreenView: View {
                         Text("High Lead Level Evaluation")
                             .font(.body)
                     }
-                    
+                    NavigationLink(destination: DiffGuide()){
+                        Text("ⓘ Differing Guidelines")
+                            .font(.body)
+                    }
                 } .navigationBarTitle(Text("Lead Screen"), displayMode: .inline)
             }
             
