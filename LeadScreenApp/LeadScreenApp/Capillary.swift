@@ -22,35 +22,35 @@ struct Capillary: View {
                 Text("Select the lead level result (ug/dL):")
                     .font(.subheadline)
                 List{
-                    NavigationLink(destination: SampleManagement()){
+                    NavigationLink(destination: Cap5ug()){
                         Text("< 5 ug/dL")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap9ug()){
                         Text("5-9")
                             .font(.body)
                     }
-                   NavigationLink(destination: ExposureSurvey()){
+                   NavigationLink(destination: Cap14()){
                        Text("10-14")
                            .font(.body)
                    }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap24()){
                         Text("15-24")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap44()){
                         Text("25-44")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap59()){
                         Text("45-59")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap69()){
                         Text("60-69")
                             .font(.body)
                     }
-                    NavigationLink(destination: ExposureSurvey()){
+                    NavigationLink(destination: Cap70()){
                         Text("≥ 70")
                             .font(.body)
                     }

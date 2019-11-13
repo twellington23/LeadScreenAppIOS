@@ -18,7 +18,7 @@ struct AboutApp: View {
         ScrollView{
            
                 //                Spacer()
-                Text("Written to put reference information about lead screening in children in the hands of clinicians, students, and residents at the point of care.\n\nContent & Design:  Michael Siciliano MD, Hong Truong DO, Christopher Ryan MD, Joshua Steinberg MD\n\nDesign & Mgmt:  Joshua Steinberg MD\n\nProgrammers: Matthew Schultz, Tyler Wellington, Megha Patel, Binghamton University, Vestal, NY\n\nFeedback: jds.pocapps@gmail.com\nPlatform: iOS 13.1\nVersion: 2.0\nCopyright: November, 2019")
+                Text("Written to put reference information about lead screening in children in the hands of clinicians, students, and residents at the point of care.\n\nContent & Design: \nMichael Siciliano MD,\nHong Truong DO,\nChristopher Ryan MD,\nJoshua Steinberg MD\n\nDesign & Mgmt:\nJoshua Steinberg MD\n\nProgrammers:\nMatthew Schultz,\nTyler Wellington,\nMegha Patel\nBinghamton University\n\nFeedback: jds.pocapps@gmail.com\nPlatform: iOS 13.1\nVersion: 2.0\nCopyright: November, 2019")
                     .font(.subheadline)
                 
                 

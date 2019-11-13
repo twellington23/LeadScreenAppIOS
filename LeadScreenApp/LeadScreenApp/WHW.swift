@@ -29,7 +29,7 @@ struct WHW: View {
                    
                     
                 } .navigationBarTitle(Text("Who How When"), displayMode: .inline)
-            }
+        }.padding()
             
         
         
