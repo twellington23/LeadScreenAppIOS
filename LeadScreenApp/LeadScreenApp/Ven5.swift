@@ -19,7 +19,7 @@ struct Ven5: View {
         ScrollView{
             VStack(spacing: 10){
                 Text("").font(.headline)
-                Text("How soon confirm with venous testing?\n- No confirmation needed.\n\nWhen to retest with venous testing?\n- May continue to use capillary testing.  See management which is retesting as appropriate.\n\nManagement\n- Test all children at age 1 year and again at 2 years, regardless of initial result.  If child < 6 years, assess risk at next well child visit, and test again if lead risk found.\n- Provide education such as 'What Your Child's Blood Lead Test Means' at")
+                Text("-Test all children at age 1 year and again at age 2 years, regardless of initial result.\n-If child <6 years, perform a Lead Exposure Risk Assessment (see p. 1) at every well child visit, and test again if lead risk is found.\n- Provide anticipatory guidance4 to parent or guardian regarding major sources of lead exposure and ways to prevent exposure.")
                     .font(.subheadline)
                 Button(action: {
 
