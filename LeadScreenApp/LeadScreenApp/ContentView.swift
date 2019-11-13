@@ -10,12 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 0
-    
+    @State private var isAlert = false
 //    init(){
 //        disclaimerAlert()
 //    }
  
     var body: some View {
+        
         TabView(selection: $selection){
             LeadScreenView()
                 .font(.title)
@@ -56,6 +57,8 @@ struct ContentView: View {
                 .tag(3)
         }
     }
+        
+           
 }
 
 
