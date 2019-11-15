@@ -31,7 +31,7 @@ struct LeadScreenView: View {
                             .font(.body)
                     }
                     
-                    NavigationLink(destination: WHW()){
+                    NavigationLink(destination: Symptoms()){
                         Text("Signs/Symptoms Lead Poisoning")
                             .font(.body)
                     }
