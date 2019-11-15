@@ -17,49 +17,49 @@ struct ContentView: View {
 //    }
  
     var body: some View {
-        
-        TabView(selection: $selection){
-            LeadScreenView()
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("home")
-                        Text("Lead Screen")
-                    }
+        ZStack{
+            Color.blue.edgesIgnoringSafeArea(.all)
+            TabView(selection: $selection){
+                LeadScreenView()
+                    .font(.title)
+                    .tabItem {
+                        VStack {
+                            Image("home")
+                            Text("Lead Screen")
+                        }
                 }
                 .tag(0)
-           DisclaimerView()
-
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("caution")
-                        Text("Disclaimer")
-                    }
+                DisclaimerView()
+                    
+                    .font(.title)
+                    .tabItem {
+                        VStack {
+                            Image("caution")
+                            Text("Disclaimer")
+                        }
                 }
                 .tag(1)
-            AboutApp()
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("info")
-                        Text("About App")
-                    }
+                AboutApp()
+                    .font(.title)
+                    .tabItem {
+                        VStack {
+                            Image("info")
+                            Text("About App")
+                        }
                 }
                 .tag(2)
-            Text("References")
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("file")
-                        Text("References")
-                    }
+                Text("References")
+                    .font(.title)
+                    .tabItem {
+                        VStack {
+                            Image("file")
+                            Text("References")
+                        }
                 }
                 .tag(3)
+            }
         }
     }
-        
-           
 }
 
 

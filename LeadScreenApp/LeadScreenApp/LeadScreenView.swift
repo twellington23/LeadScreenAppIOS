@@ -13,7 +13,7 @@ struct LeadScreenView: View {
     @State private var selection = 0
     
     init(){
-            UITableView.appearance().tableFooterView = UIView()
+        UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
         NavigationView{
@@ -51,7 +51,6 @@ struct LeadScreenView: View {
             }
             
         }
-        
     }
 }
 
