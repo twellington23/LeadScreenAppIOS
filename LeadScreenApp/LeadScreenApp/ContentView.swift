@@ -27,7 +27,7 @@ struct ContentView: View {
                 Alert(title: Text("The Lead Screening App presents guidance on screening and managing childhood lead exposure based upon the New York State Dept. of Health guidelines."), message: Text(""), dismissButton: .default(Text("Get Started")))
                   }
               
-            Color.blue.edgesIgnoringSafeArea(.all)
+            Color.init(red: 32/255, green: 72/255, blue: 96/255).edgesIgnoringSafeArea(.all)
             TabView(selection: $selection){
                 LeadScreenView()
                     .font(.title)

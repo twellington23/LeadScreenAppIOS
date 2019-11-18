@@ -14,7 +14,7 @@ struct DisclaimerView: View {
     var body: some View {
         ZStack{
             
-            Color.blue.edgesIgnoringSafeArea(.all)
+            Color.init(red: 155/255, green: 205/255, blue: 246/255).edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .leading) {
                 Text("Disclaimer")
