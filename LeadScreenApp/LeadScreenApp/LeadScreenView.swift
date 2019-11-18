@@ -18,9 +18,9 @@ struct LeadScreenView: View {
     var body: some View {
         NavigationView{
             VStack(spacing: 10){
-                //                Spacer()
+                                Spacer()
                 Text("Choose a Lead Screening Resource")
-                    .font(.subheadline)
+                    .font(.body)
                 List{
                     NavigationLink(destination: WHW()){
                         Text("Who, How, When to Screen")

@@ -16,11 +16,11 @@ struct Ven5: View {
             UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
-        ScrollView{
-            VStack(spacing: 10){
+            VStack(){
+                ScrollView{
                 Text("").font(.headline)
-                Text("-Test all children at age 1 year and again at age 2 years, regardless of initial result.\n-If child <6 years, perform a Lead Exposure Risk Assessment (see p. 1) at every well child visit, and test again if lead risk is found.\n- Provide anticipatory guidance4 to parent or guardian regarding major sources of lead exposure and ways to prevent exposure.")
-                    .font(.subheadline)
+                Text("-Test all children at age 1 year and again at age 2 years, regardless of initial result.\n-If child <6 years, perform a Lead Exposure Risk Assessment (see p. 1) at every well child visit, and test again if lead risk is found.\n- Provide anticipatory guidance to parent or guardian regarding major sources of lead exposure and ways to prevent exposure.").font(.subheadline).fixedSize(horizontal: false, vertical: true)
+                }
                 List{
                     Button(action: {
 
@@ -42,6 +42,6 @@ struct Ven5: View {
         }
         
         
-    }
+    
 }
 
