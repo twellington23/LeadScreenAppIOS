@@ -10,14 +10,23 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var selection = 0
-    @State private var isAlert = false
+    @State private var isAlert = true
     
-//    init(){
-//        disclaimerAlert()
-//    }
+    init(){
+    }
  
     var body: some View {
         ZStack{
+            
+            Button(action: {
+                      self.isAlert = true
+                  }) {
+                      Text("")
+                  }
+            .alert(isPresented: $isAlert) {
+                Alert(title: Text("The Lead Screening App presents guidance on screening and managing childhood lead exposure based upon the New York State Dept. of Health guidelines."), message: Text(""), dismissButton: .default(Text("Get Started")))
+                  }
+              
             Color.blue.edgesIgnoringSafeArea(.all)
             TabView(selection: $selection){
                 LeadScreenView()
@@ -30,7 +39,7 @@ struct ContentView: View {
                 }
                 .tag(0)
                 DisclaimerView()
-                    
+
                     .font(.title)
                     .tabItem {
                         VStack {
@@ -60,6 +69,7 @@ struct ContentView: View {
             }
         }
     }
+
 }
 
 
