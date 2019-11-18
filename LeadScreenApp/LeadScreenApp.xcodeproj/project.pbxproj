@@ -16,6 +16,7 @@
 		096C29D1236C6E55002969B6 /* LeadScreenAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29D0236C6E55002969B6 /* LeadScreenAppTests.swift */; };
 		096C29DC236C6E55002969B6 /* LeadScreenAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */; };
 		751901BE237F287A001446F6 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751901BD237F287A001446F6 /* Symptoms.swift */; };
+		751901C02382E98A001446F6 /* LeadEval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751901BF2382E98A001446F6 /* LeadEval.swift */; };
 		759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759997232370786000FDC1C7 /* DisclaimerView.swift */; };
 		75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */; };
 		75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCD2375BAC6006BF2D8 /* WHW.swift */; };
@@ -74,6 +75,7 @@
 		096C29DB236C6E55002969B6 /* LeadScreenAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenAppUITests.swift; sourceTree = "<group>"; };
 		096C29DD236C6E55002969B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		751901BD237F287A001446F6 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
+		751901BF2382E98A001446F6 /* LeadEval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadEval.swift; sourceTree = "<group>"; };
 		759997232370786000FDC1C7 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
 		75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenView.swift; sourceTree = "<group>"; };
 		75AF2DCD2375BAC6006BF2D8 /* WHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHW.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				75AF2DF1237C5941006BF2D8 /* Ven70.swift */,
 				75AF2DD32379AC3F006BF2D8 /* SampleType.swift */,
 				096C29B9236C6E53002969B6 /* AppDelegate.swift */,
+				751901BF2382E98A001446F6 /* LeadEval.swift */,
 				096C29BB236C6E53002969B6 /* SceneDelegate.swift */,
 				096C29BD236C6E53002969B6 /* ContentView.swift */,
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
@@ -366,6 +369,7 @@
 				75AF2DFA237C5943006BF2D8 /* Ven14.swift in Sources */,
 				75AF2DDA2379E4CC006BF2D8 /* SampleManagement.swift in Sources */,
 				75AF2DF7237C5943006BF2D8 /* Ven24.swift in Sources */,
+				751901C02382E98A001446F6 /* LeadEval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

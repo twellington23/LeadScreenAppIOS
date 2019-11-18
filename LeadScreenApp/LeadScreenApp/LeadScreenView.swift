@@ -39,7 +39,7 @@ struct LeadScreenView: View {
                         Text("Lead Exposure Risk Survey")
                             .font(.body)
                     }
-                    NavigationLink(destination: WHW()){
+                    NavigationLink(destination: LeadEval()){
                         Text("High Lead Level Evaluation")
                             .font(.body)
                     }
