@@ -14,6 +14,7 @@ struct LeadScreenView: View {
     
     init(){
         UITableView.appearance().tableFooterView = UIView()
+        
 //        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: Color.init(red: 32/255, green: 72/255, blue: 96/255)]
     }
     var body: some View {
@@ -53,7 +54,7 @@ struct LeadScreenView: View {
                             Text("ⓘ Differing Guidelines")
                                 .font(.body)
                         }
-                    } .navigationBarTitle(Text("Lead Screen"), displayMode: .inline)
+                    }.listRowBackground(Color.green) .navigationBarTitle(Text("Lead Screen"), displayMode: .inline)
                 }
             }
         }

@@ -57,7 +57,7 @@ struct ContentView: View {
                         }
                 }
                 .tag(2)
-                Text("References")
+                Ref()
                     .font(.title)
                     .tabItem {
                         VStack {

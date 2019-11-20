@@ -18,6 +18,7 @@
 		751901BE237F287A001446F6 /* Symptoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751901BD237F287A001446F6 /* Symptoms.swift */; };
 		751901C02382E98A001446F6 /* LeadEval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751901BF2382E98A001446F6 /* LeadEval.swift */; };
 		759997242370786000FDC1C7 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759997232370786000FDC1C7 /* DisclaimerView.swift */; };
+		759A793C23858D0A008AB68D /* Ref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759A793B23858D0A008AB68D /* Ref.swift */; };
 		75AF2DCC2375B781006BF2D8 /* LeadScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */; };
 		75AF2DCE2375BAC6006BF2D8 /* WHW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCD2375BAC6006BF2D8 /* WHW.swift */; };
 		75AF2DD02375C048006BF2D8 /* ExposureSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF2DCF2375C048006BF2D8 /* ExposureSurvey.swift */; };
@@ -77,6 +78,7 @@
 		751901BD237F287A001446F6 /* Symptoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symptoms.swift; sourceTree = "<group>"; };
 		751901BF2382E98A001446F6 /* LeadEval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadEval.swift; sourceTree = "<group>"; };
 		759997232370786000FDC1C7 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
+		759A793B23858D0A008AB68D /* Ref.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ref.swift; sourceTree = "<group>"; };
 		75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeadScreenView.swift; sourceTree = "<group>"; };
 		75AF2DCD2375BAC6006BF2D8 /* WHW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHW.swift; sourceTree = "<group>"; };
 		75AF2DCF2375C048006BF2D8 /* ExposureSurvey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureSurvey.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				751901BF2382E98A001446F6 /* LeadEval.swift */,
 				096C29BB236C6E53002969B6 /* SceneDelegate.swift */,
 				096C29BD236C6E53002969B6 /* ContentView.swift */,
+				759A793B23858D0A008AB68D /* Ref.swift */,
 				759997232370786000FDC1C7 /* DisclaimerView.swift */,
 				75AF2DDB237B1562006BF2D8 /* AboutApp.swift */,
 				75AF2DCB2375B781006BF2D8 /* LeadScreenView.swift */,
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75AF2DE4237C4C8F006BF2D8 /* Cap24.swift in Sources */,
+				759A793C23858D0A008AB68D /* Ref.swift in Sources */,
 				75AF2DEC237C4D9A006BF2D8 /* Cap70.swift in Sources */,
 				75AF2DF8237C5943006BF2D8 /* Ven69.swift in Sources */,
 				096C29BA236C6E53002969B6 /* AppDelegate.swift in Sources */,
