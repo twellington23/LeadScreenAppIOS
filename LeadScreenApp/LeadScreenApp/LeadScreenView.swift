@@ -25,7 +25,9 @@ struct LeadScreenView: View {
                     Spacer()
                     Text("Choose a Lead Screening Resource")
                         .font(.body)
+                    
                     List{
+                        
                         NavigationLink(destination: WHW()){
                             Text("Who, How, When to Screen")
                                 .font(.body)
@@ -53,7 +55,6 @@ struct LeadScreenView: View {
                         }
                     } .navigationBarTitle(Text("Lead Screen"), displayMode: .inline)
                 }
-                
             }
         }
     }
