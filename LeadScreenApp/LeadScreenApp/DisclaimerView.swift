@@ -17,8 +17,7 @@ struct DisclaimerView: View {
             Color.init(red: 155/255, green: 205/255, blue: 246/255).edgesIgnoringSafeArea(.all)
             
             VStack(alignment: .leading) {
-                Text("Disclaimer")
-                    .font(.title)
+                Text("Disclaimer").font(.title)  .frame(minWidth: 0, maxWidth: .infinity, alignment: .center)
                 ScrollView{
                     //                Spacer()
                     Text("Dear Colleague, \n\nThis tool suggests how you may approach lead screening in many circumstances, but it may not tell you what to do for the unique child before you now in your unique setting. \n\nUse this as a starting point and then tailor your care to your patient in your setting in your community with your resources.  Lead screening standards of care are often state-specific and even community-specific.  Be aware of those state and local standards.  And as always, do your own thinking. \n\nFor more information, please consult the documents in the references tab.")

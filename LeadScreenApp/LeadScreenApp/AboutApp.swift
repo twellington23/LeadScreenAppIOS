@@ -17,7 +17,7 @@ struct AboutApp: View {
             
             VStack(alignment: .leading) {
                 Text("Development of Lead Screen")
-                    .font(.title)
+                    .font(.title)    .frame(minWidth: 0, maxWidth: .infinity, alignment: .center).multilineTextAlignment(.center)  
                 ScrollView{
                     
                     //                Spacer()
