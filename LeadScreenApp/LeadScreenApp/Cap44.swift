@@ -23,7 +23,7 @@ struct Cap44: View {
                     .font(.subheadline)
                 Button(action: {
 
-                    UIApplication.shared.openURL(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
+                    UIApplication.shared.open(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
                 }) {
                 Text("health.ny.gov/publications/2526.pdf").font(.subheadline)
                 }

@@ -26,13 +26,13 @@ struct Cap5ug: View {
                 List{
                    Button(action: {
                    
-                                                            UIApplication.shared.openURL(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)
+                                                            UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)
                                                                      }) {
                                                                      Text("Lead Poisoning is a Danger for Every Baby and Child ").font(.subheadline)
                                                                      }
                     Button(action: {
                    
-                                                          UIApplication.shared.openURL(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
+                                                          UIApplication.shared.open(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
                                                       }) {
                                                       Text("What Your Child’s Blood Lead Test Means").font(.subheadline)
                                                       }

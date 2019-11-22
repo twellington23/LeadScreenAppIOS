@@ -24,25 +24,25 @@ struct Ven44: View {
                 List{
                      Button(action: {
 
-                    UIApplication.shared.openURL(URL(string: "http://www.health.ny.gov/publications/2526.pdf")!)
+                    UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2526.pdf")!)
                     }) {
                     Text("What Your Child’s Blood Lead Test Means").font(.subheadline)
                     }
                     Button(action: {
 
-                        UIApplication.shared.openURL(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)
+                        UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)
                     }) {
                     Text("Lead Poisoning is a Danger for Every Baby and Child").font(.subheadline)
                     }
                     Button(action: {
 
-                        UIApplication.shared.openURL(URL(string: "http://www.health.ny.gov/environmental/lead")!)
+                        UIApplication.shared.open(URL(string: "http://www.health.ny.gov/environmental/lead")!)
                     }) {
                     Text("NYSDOH Website").font(.subheadline)
                     }
                     Button(action: {
 
-                        UIApplication.shared.openURL(URL(string: "https://www.health.ny.gov/environmental/lead/exposure/childhood/regional_lead_resource_centers.htm")!)
+                        UIApplication.shared.open(URL(string: "https://www.health.ny.gov/environmental/lead/exposure/childhood/regional_lead_resource_centers.htm")!)
                     }) {
                     Text("Regional Lead Resource Center").font(.subheadline)
                     }

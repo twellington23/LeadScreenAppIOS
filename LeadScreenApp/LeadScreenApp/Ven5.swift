@@ -24,13 +24,13 @@ struct Ven5: View {
                 List{
                     Button(action: {
 
-                    UIApplication.shared.openURL(URL(string: "www.health.ny.gov/publications/2526.pdf")!)
+                    UIApplication.shared.open(URL(string: "www.health.ny.gov/publications/2526.pdf")!)
                     }) {
                     Text("What Your Child’s Blood Lead Test Means").font(.subheadline)
                     }
                     Button(action: {
 
-                        UIApplication.shared.openURL(URL(string: "www.health.ny.gov/publications/2594.pdf")!)
+                        UIApplication.shared.open(URL(string: "www.health.ny.gov/publications/2594.pdf")!)
                     }) {
                     Text("Lead Poisoning is a Danger for Every Baby and Child").font(.subheadline)
                     }
