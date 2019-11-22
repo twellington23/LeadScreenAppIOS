@@ -24,6 +24,11 @@ struct Cap5ug: View {
                 }
 
                 List{
+                    NavigationLink(destination: Ven5()){
+                        Text("Confrimed BLL by venous testing")
+                            .font(.subheadline)
+                    }
+
                    Button(action: {
                    
                                                             UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)

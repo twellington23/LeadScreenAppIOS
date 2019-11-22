@@ -13,24 +13,32 @@ struct Cap70: View {
     @State private var selection = 0
     
     init(){
-            UITableView.appearance().tableFooterView = UIView()
+        UITableView.appearance().tableFooterView = UIView()
     }
     var body: some View {
-        ScrollView{
-            VStack(spacing: 10){
+        
+        VStack(spacing: 01){
+            ScrollView{
                 Text("").font(.headline)
                 Text("How soon confirm with venous testing?\n- This is a medical emergency. Confirm immediately with a venous test.\n\nManagement\n- Urge prompt venous confirmation testing as noted above.\n- Further management driven by result of confirmatory venous blood lead level.\n- Provide education such as \"What Your Child's Blood Lead Test Means\" at")
                     .font(.subheadline)
-                Button(action: {
+            }
+            List{
+                NavigationLink(destination: Ven70()){
+                    Text("Confrimed BLL by venous testing")
+                        .font(.subheadline)
+                }
 
+                Button(action: {
+                    
                     UIApplication.shared.open(URL(string: "http://health.ny.gov/publications/2526.pdf")!)
                 }) {
-                Text("health.ny.gov/publications/2526.pdf").font(.subheadline)
+                    Text("What Your Child's Blood Lead Test Means").font(.subheadline)
                 }
-                    
-                } .navigationBarTitle(Text("Capillary ≥ 70 ug/dL"), displayMode: .inline).padding()
-            
-        }
+            }
+        } .navigationBarTitle(Text("Capillary ≥ 70 ug/dL"), displayMode: .inline).padding()
+        
+        
         
         
     }

@@ -53,8 +53,8 @@ struct Ref: View {
                         Text("http://www.cdc.gov/mmwr/preview/mmwrhtml/rr5809a1.htm")
                     }
                     Text("\nU.S. Preventive Services Task Force. Screening for Elevated Blood Lead Levels in Children and Pregnant Women: Recommendation Statement. December 2006. Originally published in Pediatrics 2006;118:2514-18.  Accessed online May 17, 2012.")
-                    //                Text("http://www.uspreventiveservicestaskforce.org/uspstf06/lead/leadrs.htm ")
-                    Text("Summary of Recommendations for Clinical Preventive Services.  American Academy of Family Physicians, May 2012.  Accessed online May 19, 2012.")
+                    //http://www.uspreventiveservicestaskforce.org/uspstf06/lead/leadrs.htm
+                    Text("\nSummary of Recommendations for Clinical Preventive Services.  American Academy of Family Physicians, May 2012.  Accessed online May 19, 2012.")
                     //                Text("http://www.aafp.org/online/etc/medialib/aafp_org/documents/clinical/CPS/rcps08-2005.Par.0001.File.tmp/May2012.pdf")
                     
                     
