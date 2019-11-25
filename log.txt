@@ -1,0 +1,839 @@
+commit 4813fd2955a0dc5c180972db2b4b05d478094436
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Mon Nov 25 10:18:35 2019 -0500
+
+    pretty much done
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |   8 ++--
+ .../UserInterfaceState.xcuserstate                 | Bin 55927 -> 58097 bytes
+ LeadScreenApp/LeadScreenApp/Cap14.swift            |  39 ++++++++--------
+ LeadScreenApp/LeadScreenApp/Cap24.swift            |  44 +++++++++---------
+ LeadScreenApp/LeadScreenApp/Cap44.swift            |  42 ++++++++---------
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift           |  50 +++++++++++----------
+ LeadScreenApp/LeadScreenApp/Cap69.swift            |  40 +++++++++--------
+ LeadScreenApp/LeadScreenApp/Cap70.swift            |  46 ++++++++++---------
+ 8 files changed, 142 insertions(+), 127 deletions(-)
+
+commit d76044d28a5e89430f42f7f4c8420c7c1d656889
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Mon Nov 25 10:02:03 2019 -0500
+
+    fixed colors for venous testing
+
+ .../UserInterfaceState.xcuserstate                  | Bin 44318 -> 55927 bytes
+ LeadScreenApp/LeadScreenApp/Ven14.swift             |   8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven24.swift             |   8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven44.swift             |   8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven5.swift              |   4 ++--
+ LeadScreenApp/LeadScreenApp/Ven69.swift             |   8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven70.swift             |   8 ++++----
+ 7 files changed, 22 insertions(+), 22 deletions(-)
+
+commit 5060c52f49b49d82fe0d17baec9b963398a3635e
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 25 09:57:26 2019 -0500
+
+    working on colors
+
+ LeadScreenApp/LeadScreenApp/Capillary.swift  | 30 ++++++-----
+ LeadScreenApp/LeadScreenApp/DiffGuide.swift  | 24 +++++----
+ LeadScreenApp/LeadScreenApp/LeadEval.swift   | 19 ++++---
+ LeadScreenApp/LeadScreenApp/SampleType.swift | 27 ++++++----
+ LeadScreenApp/LeadScreenApp/Symptoms.swift   | 19 ++++---
+ LeadScreenApp/LeadScreenApp/Ven14.swift      | 79 +++++++++++++++-------------
+ LeadScreenApp/LeadScreenApp/Ven24.swift      | 41 ++++++++-------
+ LeadScreenApp/LeadScreenApp/Ven44.swift      | 74 +++++++++++++-------------
+ LeadScreenApp/LeadScreenApp/Ven5.swift       | 28 +++++-----
+ LeadScreenApp/LeadScreenApp/Ven69.swift      | 73 +++++++++++++------------
+ LeadScreenApp/LeadScreenApp/Ven70.swift      | 37 +++++++------
+ LeadScreenApp/LeadScreenApp/Venous.swift     | 64 +++++++++++-----------
+ LeadScreenApp/LeadScreenApp/WHW.swift        |  8 ++-
+ 13 files changed, 283 insertions(+), 240 deletions(-)
+
+commit e1e924580a17718f9f1abecaf67163da3e312ebf
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 22 10:41:21 2019 -0500
+
+    finally got color
+
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift | 23 +++++---
+ LeadScreenApp/LeadScreenApp/Ref.swift            | 73 ++++++++++++++----------
+ 2 files changed, 56 insertions(+), 40 deletions(-)
+
+commit a190a54b06bc6cc602366dde8c465242ecf22184
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 22 09:51:10 2019 -0500
+
+    added venous link to all capillary test results
+
+ LeadScreenApp/LeadScreenApp/Cap14.swift  | 27 +++++++++------
+ LeadScreenApp/LeadScreenApp/Cap24.swift  | 27 ++++++++++-----
+ LeadScreenApp/LeadScreenApp/Cap44.swift  | 27 ++++++++++-----
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift |  5 +++
+ LeadScreenApp/LeadScreenApp/Cap69.swift  | 27 ++++++++++-----
+ LeadScreenApp/LeadScreenApp/Cap70.swift  | 26 ++++++++++-----
+ LeadScreenApp/LeadScreenApp/Ref.swift    |  4 +--
+ LeadScreenApp/LeadScreenApp/Ven44.swift  | 56 +++++++++++++++++---------------
+ LeadScreenApp/LeadScreenApp/Ven69.swift  | 56 +++++++++++++++++---------------
+ 9 files changed, 153 insertions(+), 102 deletions(-)
+
+commit bf65a5ed9fbb31f6b09209f2eab7d7b13fcdd6df
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 22 09:23:34 2019 -0500
+
+    openURL -> open
+
+ LeadScreenApp/LeadScreenApp/Cap14.swift  |  2 +-
+ LeadScreenApp/LeadScreenApp/Cap24.swift  |  2 +-
+ LeadScreenApp/LeadScreenApp/Cap44.swift  |  2 +-
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift |  4 +--
+ LeadScreenApp/LeadScreenApp/Cap69.swift  |  2 +-
+ LeadScreenApp/LeadScreenApp/Cap70.swift  |  2 +-
+ LeadScreenApp/LeadScreenApp/Ref.swift    | 47 ++++++++++++++++----------------
+ LeadScreenApp/LeadScreenApp/Ven14.swift  |  8 +++---
+ LeadScreenApp/LeadScreenApp/Ven24.swift  |  8 +++---
+ LeadScreenApp/LeadScreenApp/Ven44.swift  |  8 +++---
+ LeadScreenApp/LeadScreenApp/Ven5.swift   |  4 +--
+ LeadScreenApp/LeadScreenApp/Ven69.swift  |  8 +++---
+ LeadScreenApp/LeadScreenApp/Ven70.swift  |  8 +++---
+ 13 files changed, 52 insertions(+), 53 deletions(-)
+
+commit 37d85adb0681a40248b68821a90e7cdc45c02ed2
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 20 13:34:06 2019 -0500
+
+    centering text and other
+
+ LeadScreenApp/LeadScreenApp/AboutApp.swift       |  2 +-
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift |  3 +-
+ LeadScreenApp/LeadScreenApp/Ref.swift            | 78 +++++++-----------------
+ 3 files changed, 24 insertions(+), 59 deletions(-)
+
+commit fae1fa68a5341e0ad1ba7aab1cd3adcad234da87
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 20 10:42:12 2019 -0500
+
+    ????
+
+ LeadScreenApp/LeadScreenApp/Ref.swift | 69 ++++++++++++++++++++++++++++++++++-
+ 1 file changed, 68 insertions(+), 1 deletion(-)
+
+commit d700a7da42c0afb30aac263f2125696c1621b089
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 20 10:12:31 2019 -0500
+
+    added references
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  2 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  3 +-
+ LeadScreenApp/LeadScreenApp/Ref.swift              | 34 +++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven14.swift            | 58 +++++++++++-----------
+ 5 files changed, 71 insertions(+), 30 deletions(-)
+
+commit 058c1c4bbf95e5953d1280925868ecfe3e5b8904
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Wed Nov 20 00:33:37 2019 -0500
+
+    messing with background color
+
+ .../UserInterfaceState.xcuserstate                 | Bin 43149 -> 44318 bytes
+ LeadScreenApp/LeadScreenApp/AboutApp.swift         |  28 ++++++++++++---------
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift   |   6 ++---
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |   3 ++-
+ 4 files changed, 21 insertions(+), 16 deletions(-)
+
+commit eaeded82b1e6be8296f0fe1c7ffe291625727c83
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 18 10:40:53 2019 -0500
+
+    end of today
+
+ LeadScreenApp/LeadScreenApp/ContentView.swift    |  2 +-
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift |  2 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift | 71 +++++++++++++-----------
+ 3 files changed, 40 insertions(+), 35 deletions(-)
+
+commit 02a02fcced39841d757558eb3c261408018fed62
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 18 10:26:25 2019 -0500
+
+    working on getting venous/capillary formatting
+
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift         |  2 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift |  4 ++--
+ LeadScreenApp/LeadScreenApp/Ven14.swift          |  2 ++
+ LeadScreenApp/LeadScreenApp/Ven5.swift           | 10 +++++-----
+ LeadScreenApp/LeadScreenApp/Ven70.swift          |  9 +++++----
+ 5 files changed, 15 insertions(+), 12 deletions(-)
+
+commit 94325a4b9728700522fc03787599ba92ed8630ba
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 18 10:06:12 2019 -0500
+
+    added lead eval
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 +++
+ LeadScreenApp/LeadScreenApp/LeadEval.swift         | 32 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  2 +-
+ 3 files changed, 37 insertions(+), 1 deletion(-)
+
+commit 424a1b3d524f988d96530678c4da3deab1bd94af
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 18 09:59:59 2019 -0500
+
+    removed old alerts code
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ----
+ LeadScreenApp/LeadScreenApp/AlertController.swift  | 22 ----------------------
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift      | 20 +-------------------
+ 3 files changed, 1 insertion(+), 45 deletions(-)
+
+commit 3b43824bffca1b8f424dba83b64ef5d8afeba430
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 18 09:59:26 2019 -0500
+
+    finally got alert working
+
+ LeadScreenApp/LeadScreenApp/ContentView.swift   | 20 +++++++++++++++-----
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift |  2 ++
+ 2 files changed, 17 insertions(+), 5 deletions(-)
+
+commit c13809ca331cdda4b868eaa47a124187975db2cd
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 15 13:43:45 2019 -0500
+
+    added symptoms
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 +++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  2 +-
+ LeadScreenApp/LeadScreenApp/Symptoms.swift         | 32 ++++++++++++++++++++++
+ 3 files changed, 37 insertions(+), 1 deletion(-)
+
+commit 5cb2ebd7f98da417166f22fadb4837c71b0a46c9
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 15 10:39:24 2019 -0500
+
+    messing with background color
+
+ .../UserInterfaceState.xcuserstate                 | Bin 42024 -> 43149 bytes
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  66 ++++++++++-----------
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift   |  26 ++++----
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |   3 +-
+ 4 files changed, 49 insertions(+), 46 deletions(-)
+
+commit b6d3e8482db4b66baf9dbb6f531a3fa2ae3e8747
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 17:39:22 2019 -0500
+
+    fixing some link issues
+
+ LeadScreenApp/LeadScreenApp/Ven14.swift | 8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven24.swift | 8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven44.swift | 8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven69.swift | 8 ++++----
+ LeadScreenApp/LeadScreenApp/Ven70.swift | 8 ++++----
+ 5 files changed, 20 insertions(+), 20 deletions(-)
+
+commit 9ae4490bce4e4a76445ab3ed0ec2b810a2a98ce6
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Wed Nov 13 15:36:02 2019 -0500
+
+    added AlertController
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |   4 +++
+ .../UserInterfaceState.xcuserstate                 | Bin 38044 -> 42024 bytes
+ LeadScreenApp/LeadScreenApp/AlertController.swift  |  22 +++++++++++++
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift      |  35 +++++++++++----------
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |   1 +
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift    |   6 ----
+ 6 files changed, 46 insertions(+), 22 deletions(-)
+
+commit 868568001f62ee649515f125ed0f8da5f282ef16
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:30:50 2019 -0500
+
+    Update Ven70.swift
+
+ LeadScreenApp/LeadScreenApp/Ven70.swift | 30 +++++++++++++++++++++++++-----
+ 1 file changed, 25 insertions(+), 5 deletions(-)
+
+commit 1fc6f3a42ff48f8288777c7c480ba894e58a8286
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:25:29 2019 -0500
+
+    Update Ven69.swift
+
+ LeadScreenApp/LeadScreenApp/Ven69.swift | 30 +++++++++++++++++++++++++-----
+ 1 file changed, 25 insertions(+), 5 deletions(-)
+
+commit 664ff118ae9a9f0403407b262923f9edd300ddf3
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:17:33 2019 -0500
+
+    Update Ven44.swift
+
+ LeadScreenApp/LeadScreenApp/Ven44.swift | 30 +++++++++++++++++++++++++-----
+ 1 file changed, 25 insertions(+), 5 deletions(-)
+
+commit 3c84ec7012335bbb6c7fa24f58fa1eecd3cb2c7f
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:16:38 2019 -0500
+
+    Update Ven24.swift
+
+ LeadScreenApp/LeadScreenApp/Ven24.swift | 30 +++++++++++++++++++++++++-----
+ 1 file changed, 25 insertions(+), 5 deletions(-)
+
+commit a9328fb5a5d594c184d7a6795f7c86670723eefc
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:11:23 2019 -0500
+
+    Update Ven14.swift
+
+ LeadScreenApp/LeadScreenApp/Ven14.swift | 6 ++----
+ 1 file changed, 2 insertions(+), 4 deletions(-)
+
+commit 379096bd2e9eed99d2a8eefdebb8a17348301ef6
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:09:25 2019 -0500
+
+    Update Ven14.swift
+
+ LeadScreenApp/LeadScreenApp/Ven14.swift | 51 +++++++++++++++++----------------
+ 1 file changed, 27 insertions(+), 24 deletions(-)
+
+commit d2e094059efa38b4f0cf811d627b64ad672865b8
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:07:59 2019 -0500
+
+    Update Ven5.swift
+
+ LeadScreenApp/LeadScreenApp/Ven5.swift | 20 +++++++++++---------
+ 1 file changed, 11 insertions(+), 9 deletions(-)
+
+commit 05775934a983e83f96bdade97ee523770ba8ba75
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:03:47 2019 -0500
+
+    Update Ven5.swift
+
+ LeadScreenApp/LeadScreenApp/Ven5.swift | 16 +++++++++++-----
+ 1 file changed, 11 insertions(+), 5 deletions(-)
+
+commit 379918236386524b0e984bf30a889c07f4bda8df
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 15:02:30 2019 -0500
+
+    Update Ven14.swift
+
+ LeadScreenApp/LeadScreenApp/Ven14.swift | 24 +++++++++++++++++++++---
+ 1 file changed, 21 insertions(+), 3 deletions(-)
+
+commit 7b407de50524d16e78af99a767a79d13b66dcb2c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 14:52:21 2019 -0500
+
+    messing about
+
+ LeadScreenApp/LeadScreenApp/ContentView.swift | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 4d5812cdb92e689fa4010b72eabb7f03994ee573
+Merge: 8143809 e0d996d
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 14:34:25 2019 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit 8143809be5f01b558537958bc8b65af7d93facbf
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 14:33:51 2019 -0500
+
+    trying to fix
+
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+commit e0d996d65f831efe13ea67f9285bc95bf201199c
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 14:25:06 2019 -0500
+
+    Update Ven5.swift
+
+ LeadScreenApp/LeadScreenApp/Ven5.swift | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 98bbf447805631e282642307a977ef55f94aba24
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 14:03:39 2019 -0500
+
+    mucho change-o
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  16 ---------
+ .../LeadScreenApp/Assets.xcassets/.DS_Store        | Bin 0 -> 6148 bytes
+ .../AppIcon.appiconset/1024appstore.png            | Bin 0 -> 270082 bytes
+ .../AppIcon.appiconset/183point5.png               | Bin 0 -> 19043 bytes
+ .../Assets.xcassets/AppIcon.appiconset/76.png      | Bin 0 -> 6575 bytes
+ .../AppIcon.appiconset/Contents.json               |  12 ++++---
+ .../AppIcon.appiconset/customipad-1.png            | Bin 0 -> 16090 bytes
+ LeadScreenApp/LeadScreenApp/Cap14.swift            |   2 +-
+ LeadScreenApp/LeadScreenApp/Cap59.swift            |  38 ---------------------
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift           |  23 ++++++++-----
+ LeadScreenApp/LeadScreenApp/Cap9ug.swift           |  38 ---------------------
+ LeadScreenApp/LeadScreenApp/Capillary.swift        |  13 ++-----
+ LeadScreenApp/LeadScreenApp/Ven14.swift            |   2 +-
+ LeadScreenApp/LeadScreenApp/Ven59.swift            |  38 ---------------------
+ LeadScreenApp/LeadScreenApp/Ven69.swift            |   2 +-
+ LeadScreenApp/LeadScreenApp/Ven9.swift             |  38 ---------------------
+ LeadScreenApp/LeadScreenApp/Venous.swift           |  14 +++-----
+ 17 files changed, 33 insertions(+), 203 deletions(-)
+
+commit 4d2448ba97ff4ed3b8982efebc518310f177ab13
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Wed Nov 13 10:43:58 2019 -0500
+
+    alert created but not popping up
+
+ .../UserInterfaceState.xcuserstate                  | Bin 30909 -> 38044 bytes
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift       |  19 +++++++++++++++----
+ LeadScreenApp/LeadScreenApp/ContentView.swift       |  10 +++++-----
+ 3 files changed, 20 insertions(+), 9 deletions(-)
+
+commit e1c50ad967a30c1873e48526da5acf747bba84f1
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Wed Nov 13 10:41:37 2019 -0500
+
+    Update Ven5.swift
+
+ LeadScreenApp/LeadScreenApp/Ven5.swift | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 988e656329524966bc9441ed39e8db7daedb04dd
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 10:34:06 2019 -0500
+
+    added venous files
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        | 32 ++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift   |  1 -
+ LeadScreenApp/LeadScreenApp/Ven14.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven24.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven44.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven5.swift             | 39 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven59.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven69.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven70.swift            | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Ven9.swift             | 38 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Venous.swift           | 16 ++++-----
+ 11 files changed, 345 insertions(+), 9 deletions(-)
+
+commit a70d698ee43b2c2f3ccaa8c769de137c7b051467
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 10:27:22 2019 -0500
+
+    made some minor tweak?
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 +++
+ LeadScreenApp/LeadScreenApp/DiffGuide.swift        | 29 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift   |  5 ++--
+ LeadScreenApp/LeadScreenApp/Info.plist             |  6 ++---
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  5 +++-
+ 5 files changed, 43 insertions(+), 6 deletions(-)
+
+commit 5cb188606bfe226da02a7ddbed80463e51f75b63
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 10:17:58 2019 -0500
+
+    try to force orientation
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 2 ++
+ LeadScreenApp/LeadScreenApp/Info.plist                | 3 ---
+ 2 files changed, 2 insertions(+), 3 deletions(-)
+
+commit abc13d27dbd1d8d3e7b28f125dad431b47501047
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 10:03:03 2019 -0500
+
+    messing with capillary hyperlinks
+
+ LeadScreenApp/LeadScreenApp/Cap14.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap24.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap44.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap59.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift | 12 +++++++++---
+ LeadScreenApp/LeadScreenApp/Cap69.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap70.swift  | 13 +++++++++----
+ LeadScreenApp/LeadScreenApp/Cap9ug.swift | 13 +++++++++----
+ 8 files changed, 72 insertions(+), 31 deletions(-)
+
+commit 90ec06e33f72c8f2e9af89b0480cae298404bcaa
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Wed Nov 13 09:42:50 2019 -0500
+
+    finished capillary tests
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        | 32 +++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/AboutApp.swift         |  2 +-
+ LeadScreenApp/LeadScreenApp/Cap14.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap24.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap44.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap59.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap5ug.swift           | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap69.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap70.swift            | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Cap9ug.swift           | 33 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/Capillary.swift        | 16 +++++------
+ LeadScreenApp/LeadScreenApp/WHW.swift              |  2 +-
+ 12 files changed, 306 insertions(+), 10 deletions(-)
+
+commit 026d10f9491fd95c2308449c9c8a62b46929063e
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 12 11:36:47 2019 -0500
+
+    changes to about page
+
+ LeadScreenApp/LeadScreenApp/AboutApp.swift    | 2 +-
+ LeadScreenApp/LeadScreenApp/ContentView.swift | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 762206b9724ff95878809c008abab56a076a8767
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 12 11:32:21 2019 -0500
+
+    added about app
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 +++
+ LeadScreenApp/LeadScreenApp/AboutApp.swift         | 30 ++++++++++++++++++++++
+ 2 files changed, 34 insertions(+)
+
+commit 46ad0277b604935e044b668d61df315f69b8fd4c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 12 11:23:13 2019 -0500
+
+    minor tweaks
+
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift | 19 +++++++++++--------
+ 1 file changed, 11 insertions(+), 8 deletions(-)
+
+commit a8d5da9556ed71ed721f2a46fd3f2eea1f6776bd
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 13:56:53 2019 -0500
+
+    capillary test stuff
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/Capillary.swift        | 32 ++++++++++++---
+ LeadScreenApp/LeadScreenApp/SampleManagement.swift | 33 ++++++++++++++++
+ LeadScreenApp/LeadScreenApp/SampleType.swift       |  4 +-
+ LeadScreenApp/LeadScreenApp/Venous.swift           | 46 ++++++++++++++++------
+ 5 files changed, 100 insertions(+), 19 deletions(-)
+
+commit d65b91d46b8ff7153b20f5b7822a8b37f5c31fee
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 13:42:14 2019 -0500
+
+    eval formatting
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 7754ac599ab23652cb59b9446ce6fe07e32df350
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Mon Nov 11 13:39:24 2019 -0500
+
+    Update ExposureSurvey.swift
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 6b21cebafecd6e654ff6847f4985e3b07edfef69
+Author: meghamkpatel <32498703+meghamkpatel@users.noreply.github.com>
+Date:   Mon Nov 11 13:35:16 2019 -0500
+
+    Update ExposureSurvey.swift
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7d99bc64b0caac047edfdb6ca648d52aedb1203f
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Mon Nov 11 10:41:50 2019 -0500
+
+    working on alert
+
+ .../UserInterfaceState.xcuserstate                  | Bin 23566 -> 30909 bytes
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift       |   6 ++++++
+ LeadScreenApp/LeadScreenApp/ContentView.swift       |  10 ++++++++++
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift     |   6 ++++++
+ 4 files changed, 22 insertions(+)
+
+commit b20daf1ba0114bcefbefec34e059b60a792a6a01
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 10:29:36 2019 -0500
+
+    added risk survey
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit bcc63a0cf9ce189396abec9e451f724ae6696cf2
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 10:10:15 2019 -0500
+
+    fixed duplicating navigation bar
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  8 ++++
+ LeadScreenApp/LeadScreenApp/Capillary.swift        | 12 +++---
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift   |  4 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  2 +-
+ LeadScreenApp/LeadScreenApp/SampleType.swift       |  8 ++--
+ LeadScreenApp/LeadScreenApp/Venous.swift           | 44 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/WHW.swift              |  4 +-
+ 7 files changed, 67 insertions(+), 15 deletions(-)
+
+commit 1ef91d982ddcf41645fc69a6b7dda7a195572ae4
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 09:49:23 2019 -0500
+
+    changed filename
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  8 ++--
+ LeadScreenApp/LeadScreenApp/SampleType.swift       | 44 ++++++++++++++++++++++
+ 2 files changed, 48 insertions(+), 4 deletions(-)
+
+commit e16f2b217597bcd9ca6ec955a0eb0282d4373422
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 09:45:13 2019 -0500
+
+    added capillary vs venous
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/Capillary.swift        | 44 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  2 +-
+ 3 files changed, 49 insertions(+), 1 deletion(-)
+
+commit b7953c00191d227a5594a4f98b754528e4e0dfd3
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:41:35 2019 -0500
+
+    added exposure survey
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 33 ++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit 5b3dc8765cab7eb38cf1763c6850e6c5ced025c1
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:29:57 2019 -0500
+
+    additional navigation stuff
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   | 43 +++++++++++-----------
+ LeadScreenApp/LeadScreenApp/WHW.swift              | 29 +++++++++++----
+ 3 files changed, 47 insertions(+), 29 deletions(-)
+
+commit 087a266ff85e70fcf409dda9dc5329d12668a12c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:14:04 2019 -0500
+
+    adding lead screen UI
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  8 ++++
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  2 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   | 53 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift    |  1 +
+ LeadScreenApp/LeadScreenApp/WHW.swift              | 25 ++++++++++
+ 5 files changed, 88 insertions(+), 1 deletion(-)
+
+commit c0f11b7b82574c53fa8f077c9cfe1ac37c6a14f0
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:37:04 2019 -0500
+
+    notes.
+
+ LeadScreenApp/LeadScreenApp/notes.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit c2f1862c6893d896010a25d7662adc256f458e9e
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:36:18 2019 -0500
+
+    really added notes
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 60100b9db6f542bfba55038e8c71448b2e9c3635
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:35:07 2019 -0500
+
+    added notes.txt
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 1f4cdb861d221db042e18d67b4e07dc017faf5ca
+Merge: bdad363 2661c42
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:32:41 2019 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit bdad363f0cbf16561f32f281a97ae551ceface1c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:32:29 2019 -0500
+
+    added notes.txt
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 2661c423aaeb95d9661c1db6ca2d89380edbb5fd
+Author: Matthew Schultz <mattschultz1337@gmail.com>
+Date:   Tue Nov 5 10:28:49 2019 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 67c395728dccd34232d33852cae90fb924a95a05
+Author: Matthew Schultz <mattschultz1337@gmail.com>
+Date:   Tue Nov 5 10:25:13 2019 -0500
+
+    Update README.md
+
+ README.md | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit e7e442f593e25415be38e2adb6e827816406ec65
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 4 10:25:55 2019 -0500
+
+    messing around with view controllers from tabview
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++++
+ .../Base.lproj/LaunchScreen.storyboard             | 18 ++++-----------
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  4 +++-
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift   | 27 ++++++++++++++++++++++
+ 4 files changed, 39 insertions(+), 14 deletions(-)
+
+commit 9eed5b9ea4eb58323e3d3d6b36cdd136ad141b79
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 10:40:20 2019 -0400
+
+    test commit
+
+ .../UserInterfaceState.xcuserstate                  | Bin 22003 -> 23566 bytes
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift       |   2 +-
+ LeadScreenApp/LeadScreenApp/ContentView.swift       |   2 +-
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift     |   2 +-
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 9ca6b648fdab1ebc600fb5ee9da96c732796d4a9
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 1 10:32:50 2019 -0400
+
+    added some notes
+
+ LeadScreenApp/Notes.rtf | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 29f8fafcb24770d77d5c40a03280c3cb6b268b31
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 1 10:25:47 2019 -0400
+
+    Added Notes File
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj |  4 ++++
+ LeadScreenApp/Notes.rtf                               | 11 +++++++++++
+ 2 files changed, 15 insertions(+)
+
+commit b3e63b2d59ca6aef5ab83f46fe1ad9d159659aab
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 10:19:21 2019 -0400
+
+    added tabs and icons
+
+ .../UserInterfaceState.xcuserstate                 | Bin 17336 -> 22003 bytes
+ .../AppIcon.appiconset/Contents.json               |  12 ++++++---
+ .../Assets.xcassets/AppIcon.appiconset/Custom.png  | Bin 0 -> 18924 bytes
+ .../AppIcon.appiconset/Icon-Small@2x.png           | Bin 0 -> 6242 bytes
+ .../AppIcon.appiconset/ios7_app_icon_iphone@2x.png | Bin 0 -> 11862 bytes
+ .../AppIcon.appiconset/ios7_spotlight_icon@2x.png  | Bin 0 -> 8077 bytes
+ .../Assets.xcassets/caution.imageset/Contents.json |  21 +++++++++++++++
+ .../Assets.xcassets/caution.imageset/caution.png   | Bin 0 -> 421 bytes
+ .../Assets.xcassets/email.imageset/Contents.json   |  21 +++++++++++++++
+ .../Assets.xcassets/email.imageset/email.png       | Bin 0 -> 428 bytes
+ .../Assets.xcassets/file.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/file.imageset/file.png         | Bin 0 -> 324 bytes
+ .../Assets.xcassets/first.imageset/Contents.json   |  12 ---------
+ .../Assets.xcassets/first.imageset/first.pdf       | Bin 2465 -> 0 bytes
+ .../Assets.xcassets/home.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/home.imageset/house.png        | Bin 0 -> 699 bytes
+ .../Assets.xcassets/info.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/info.imageset/info.png         | Bin 0 -> 450 bytes
+ .../Assets.xcassets/key.imageset/Contents.json     |  21 +++++++++++++++
+ .../Assets.xcassets/key.imageset/key.png           | Bin 0 -> 422 bytes
+ .../Assets.xcassets/second.imageset/Contents.json  |  12 ---------
+ .../Assets.xcassets/second.imageset/second.pdf     | Bin 2423 -> 0 bytes
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  30 ++++++++++++++++-----
+ 23 files changed, 158 insertions(+), 34 deletions(-)
+
+commit 792b911ace1c04151d8bcc47b7359bd17495aa60
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 09:56:49 2019 -0400
+
+    credit where credit is due
+
+ .../UserInterfaceState.xcuserstate                   | Bin 9826 -> 17336 bytes
+ LeadScreenApp/LeadScreenApp/ContentView.swift        |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 715b72facbc55169c70903d12f4a9665e451aff5
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 09:45:41 2019 -0400
+
+    added Xcode files
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        | 593 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 9826 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift      |  37 ++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++
+ .../LeadScreenApp/Assets.xcassets/Contents.json    |   6 +
+ .../Assets.xcassets/first.imageset/Contents.json   |  12 +
+ .../Assets.xcassets/first.imageset/first.pdf       | Bin 0 -> 2465 bytes
+ .../Assets.xcassets/second.imageset/Contents.json  |  12 +
+ .../Assets.xcassets/second.imageset/second.pdf     | Bin 0 -> 2423 bytes
+ .../Base.lproj/LaunchScreen.storyboard             |  25 +
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  42 ++
+ LeadScreenApp/LeadScreenApp/Info.plist             |  70 +++
+ .../Preview Assets.xcassets/Contents.json          |   6 +
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift    |  64 +++
+ LeadScreenApp/LeadScreenAppTests/Info.plist        |  22 +
+ .../LeadScreenAppTests/LeadScreenAppTests.swift    |  34 ++
+ LeadScreenApp/LeadScreenAppUITests/Info.plist      |  22 +
+ .../LeadScreenAppUITests.swift                     |  43 ++
+ 21 files changed, 1115 insertions(+)
+
+commit ef50576e61f83449863b406fd3f19241cabbec02
+Author: twellington23 <42653953+twellington23@users.noreply.github.com>
+Date:   Fri Nov 1 09:43:59 2019 -0400
+
+    Update README.md
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit f6c111eaa5873999450a37ee3ce52735207961ed
+Author: twellington23 <42653953+twellington23@users.noreply.github.com>
+Date:   Wed Oct 30 10:38:02 2019 -0400
+
+    Create README.md
+
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)

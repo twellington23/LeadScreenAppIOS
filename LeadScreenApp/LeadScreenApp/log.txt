@@ -1,0 +1,245 @@
+commit 1ef91d982ddcf41645fc69a6b7dda7a195572ae4
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 09:49:23 2019 -0500
+
+    changed filename
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  8 ++--
+ LeadScreenApp/LeadScreenApp/SampleType.swift       | 44 ++++++++++++++++++++++
+ 2 files changed, 48 insertions(+), 4 deletions(-)
+
+commit e16f2b217597bcd9ca6ec955a0eb0282d4373422
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 11 09:45:13 2019 -0500
+
+    added capillary vs venous
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/Capillary.swift        | 44 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   |  2 +-
+ 3 files changed, 49 insertions(+), 1 deletion(-)
+
+commit b7953c00191d227a5594a4f98b754528e4e0dfd3
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:41:35 2019 -0500
+
+    added exposure survey
+
+ LeadScreenApp/LeadScreenApp/ExposureSurvey.swift | 33 ++++++++++++++++++++++++
+ 1 file changed, 33 insertions(+)
+
+commit 5b3dc8765cab7eb38cf1763c6850e6c5ced025c1
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:29:57 2019 -0500
+
+    additional navigation stuff
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   | 43 +++++++++++-----------
+ LeadScreenApp/LeadScreenApp/WHW.swift              | 29 +++++++++++----
+ 3 files changed, 47 insertions(+), 29 deletions(-)
+
+commit 087a266ff85e70fcf409dda9dc5329d12668a12c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 8 10:14:04 2019 -0500
+
+    adding lead screen UI
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  8 ++++
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  2 +-
+ LeadScreenApp/LeadScreenApp/LeadScreenView.swift   | 53 ++++++++++++++++++++++
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift    |  1 +
+ LeadScreenApp/LeadScreenApp/WHW.swift              | 25 ++++++++++
+ 5 files changed, 88 insertions(+), 1 deletion(-)
+
+commit c0f11b7b82574c53fa8f077c9cfe1ac37c6a14f0
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:37:04 2019 -0500
+
+    notes.
+
+ LeadScreenApp/LeadScreenApp/notes.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit c2f1862c6893d896010a25d7662adc256f458e9e
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:36:18 2019 -0500
+
+    really added notes
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 60100b9db6f542bfba55038e8c71448b2e9c3635
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:35:07 2019 -0500
+
+    added notes.txt
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 1f4cdb861d221db042e18d67b4e07dc017faf5ca
+Merge: bdad363 2661c42
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:32:41 2019 -0500
+
+    Merge remote-tracking branch 'refs/remotes/origin/master'
+
+commit bdad363f0cbf16561f32f281a97ae551ceface1c
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Tue Nov 5 10:32:29 2019 -0500
+
+    added notes.txt
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 2661c423aaeb95d9661c1db6ca2d89380edbb5fd
+Author: Matthew Schultz <mattschultz1337@gmail.com>
+Date:   Tue Nov 5 10:28:49 2019 -0500
+
+    Update README.md
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 67c395728dccd34232d33852cae90fb924a95a05
+Author: Matthew Schultz <mattschultz1337@gmail.com>
+Date:   Tue Nov 5 10:25:13 2019 -0500
+
+    Update README.md
+
+ README.md | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit e7e442f593e25415be38e2adb6e827816406ec65
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Mon Nov 4 10:25:55 2019 -0500
+
+    messing around with view controllers from tabview
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        |  4 ++++
+ .../Base.lproj/LaunchScreen.storyboard             | 18 ++++-----------
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  4 +++-
+ LeadScreenApp/LeadScreenApp/DisclaimerView.swift   | 27 ++++++++++++++++++++++
+ 4 files changed, 39 insertions(+), 14 deletions(-)
+
+commit 9eed5b9ea4eb58323e3d3d6b36cdd136ad141b79
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 10:40:20 2019 -0400
+
+    test commit
+
+ .../UserInterfaceState.xcuserstate                  | Bin 22003 -> 23566 bytes
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift       |   2 +-
+ LeadScreenApp/LeadScreenApp/ContentView.swift       |   2 +-
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift     |   2 +-
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+
+commit 9ca6b648fdab1ebc600fb5ee9da96c732796d4a9
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 1 10:32:50 2019 -0400
+
+    added some notes
+
+ LeadScreenApp/Notes.rtf | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 29f8fafcb24770d77d5c40a03280c3cb6b268b31
+Author: Matthew Schultz <mschult7@bingha>
+Date:   Fri Nov 1 10:25:47 2019 -0400
+
+    Added Notes File
+
+ LeadScreenApp/LeadScreenApp.xcodeproj/project.pbxproj |  4 ++++
+ LeadScreenApp/Notes.rtf                               | 11 +++++++++++
+ 2 files changed, 15 insertions(+)
+
+commit b3e63b2d59ca6aef5ab83f46fe1ad9d159659aab
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 10:19:21 2019 -0400
+
+    added tabs and icons
+
+ .../UserInterfaceState.xcuserstate                 | Bin 17336 -> 22003 bytes
+ .../AppIcon.appiconset/Contents.json               |  12 ++++++---
+ .../Assets.xcassets/AppIcon.appiconset/Custom.png  | Bin 0 -> 18924 bytes
+ .../AppIcon.appiconset/Icon-Small@2x.png           | Bin 0 -> 6242 bytes
+ .../AppIcon.appiconset/ios7_app_icon_iphone@2x.png | Bin 0 -> 11862 bytes
+ .../AppIcon.appiconset/ios7_spotlight_icon@2x.png  | Bin 0 -> 8077 bytes
+ .../Assets.xcassets/caution.imageset/Contents.json |  21 +++++++++++++++
+ .../Assets.xcassets/caution.imageset/caution.png   | Bin 0 -> 421 bytes
+ .../Assets.xcassets/email.imageset/Contents.json   |  21 +++++++++++++++
+ .../Assets.xcassets/email.imageset/email.png       | Bin 0 -> 428 bytes
+ .../Assets.xcassets/file.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/file.imageset/file.png         | Bin 0 -> 324 bytes
+ .../Assets.xcassets/first.imageset/Contents.json   |  12 ---------
+ .../Assets.xcassets/first.imageset/first.pdf       | Bin 2465 -> 0 bytes
+ .../Assets.xcassets/home.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/home.imageset/house.png        | Bin 0 -> 699 bytes
+ .../Assets.xcassets/info.imageset/Contents.json    |  21 +++++++++++++++
+ .../Assets.xcassets/info.imageset/info.png         | Bin 0 -> 450 bytes
+ .../Assets.xcassets/key.imageset/Contents.json     |  21 +++++++++++++++
+ .../Assets.xcassets/key.imageset/key.png           | Bin 0 -> 422 bytes
+ .../Assets.xcassets/second.imageset/Contents.json  |  12 ---------
+ .../Assets.xcassets/second.imageset/second.pdf     | Bin 2423 -> 0 bytes
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  30 ++++++++++++++++-----
+ 23 files changed, 158 insertions(+), 34 deletions(-)
+
+commit 792b911ace1c04151d8bcc47b7359bd17495aa60
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 09:56:49 2019 -0400
+
+    credit where credit is due
+
+ .../UserInterfaceState.xcuserstate                   | Bin 9826 -> 17336 bytes
+ LeadScreenApp/LeadScreenApp/ContentView.swift        |   2 +-
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit 715b72facbc55169c70903d12f4a9665e451aff5
+Author: Tyler Wellington <twellin1@binghamton.edu>
+Date:   Fri Nov 1 09:45:41 2019 -0400
+
+    added Xcode files
+
+ .../LeadScreenApp.xcodeproj/project.pbxproj        | 593 +++++++++++++++++++++
+ .../project.xcworkspace/contents.xcworkspacedata   |   7 +
+ .../xcshareddata/IDEWorkspaceChecks.plist          |   8 +
+ .../UserInterfaceState.xcuserstate                 | Bin 0 -> 9826 bytes
+ .../xcschemes/xcschememanagement.plist             |  14 +
+ LeadScreenApp/LeadScreenApp/AppDelegate.swift      |  37 ++
+ .../AppIcon.appiconset/Contents.json               |  98 ++++
+ .../LeadScreenApp/Assets.xcassets/Contents.json    |   6 +
+ .../Assets.xcassets/first.imageset/Contents.json   |  12 +
+ .../Assets.xcassets/first.imageset/first.pdf       | Bin 0 -> 2465 bytes
+ .../Assets.xcassets/second.imageset/Contents.json  |  12 +
+ .../Assets.xcassets/second.imageset/second.pdf     | Bin 0 -> 2423 bytes
+ .../Base.lproj/LaunchScreen.storyboard             |  25 +
+ LeadScreenApp/LeadScreenApp/ContentView.swift      |  42 ++
+ LeadScreenApp/LeadScreenApp/Info.plist             |  70 +++
+ .../Preview Assets.xcassets/Contents.json          |   6 +
+ LeadScreenApp/LeadScreenApp/SceneDelegate.swift    |  64 +++
+ LeadScreenApp/LeadScreenAppTests/Info.plist        |  22 +
+ .../LeadScreenAppTests/LeadScreenAppTests.swift    |  34 ++
+ LeadScreenApp/LeadScreenAppUITests/Info.plist      |  22 +
+ .../LeadScreenAppUITests.swift                     |  43 ++
+ 21 files changed, 1115 insertions(+)
+
+commit ef50576e61f83449863b406fd3f19241cabbec02
+Author: twellington23 <42653953+twellington23@users.noreply.github.com>
+Date:   Fri Nov 1 09:43:59 2019 -0400
+
+    Update README.md
+
+ README.md | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit f6c111eaa5873999450a37ee3ce52735207961ed
+Author: twellington23 <42653953+twellington23@users.noreply.github.com>
+Date:   Wed Oct 30 10:38:02 2019 -0400
+
+    Create README.md
+
+ README.md | 3 +++
+ 1 file changed, 3 insertions(+)
