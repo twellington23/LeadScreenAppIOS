@@ -32,25 +32,25 @@ struct Ven24: View {
                         UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2526.pdf")!)
                     }) {
                         Text("What Your Child’s Blood Lead Test Means").font(.subheadline)
-                    }
+                    }.listRowBackground(Color.init(red: 155/255, green: 205/255, blue: 246/255))
                     Button(action: {
                         
                         UIApplication.shared.open(URL(string: "http://www.health.ny.gov/publications/2594.pdf")!)
                     }) {
                         Text("Lead Poisoning is a Danger for Every Baby and Child").font(.subheadline)
-                    }
+                    }.listRowBackground(Color.init(red: 155/255, green: 205/255, blue: 246/255))
                     Button(action: {
                         
                         UIApplication.shared.open(URL(string: "http://www.health.ny.gov/environmental/lead")!)
                     }) {
                         Text("NYSDOH Website").font(.subheadline)
-                    }
+                    }.listRowBackground(Color.init(red: 155/255, green: 205/255, blue: 246/255))
                     Button(action: {
                         
                         UIApplication.shared.open(URL(string: "https://www.health.ny.gov/environmental/lead/exposure/childhood/regional_lead_resource_centers.htm")!)
                     }) {
                         Text("Regional Lead Resource Center").font(.subheadline)
-                    }
+                    }.listRowBackground(Color.init(red: 155/255, green: 205/255, blue: 246/255))
                 }
                 
             } .navigationBarTitle(Text("Venous: 15-24 ug/dL"), displayMode: .inline).padding()
