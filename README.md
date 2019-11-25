@@ -1,7 +1,11 @@
 # LeadScreenAppIOS
-This tool suggests how you may approach lead screening in many circumstances, but it may not tell you what to do for the unique child before you now in your unique setting. 
+Created by Matthew Schultz, Tyler Wellington, Megha Patel for Dr. Joshua Steingberg M.D to fulfill projects 5 and 6 in CS441 at Binghamton University. We used SwiftUI to develop this app in XCode for iOS 13.1 and later. We utilized a Tab View Controller, with a NavigationView, containing information, as well as a list of NavigationLinks to switch between the pages, as opposed to using the XCode storyboard. 
 
-Use this as a starting point and then tailor your care to your patient in your setting in your community with your resources.  Lead screening standards of care are often state-specific and even community-specific.  Be aware of those state and local standards.  And as always, do your own thinking.
+"This tool suggests how you may approach lead screening in many circumstances, but it may not tell you what to do for the unique child before you now in your unique setting. 
+
+Use this as a starting point and then tailor your care to your patient in your setting in your community with your resources.  Lead screening standards of care are often state-specific and even community-specific.  Be aware of those state and local standards.  And as always, do your own thinking."
+
+References
 
 Guidelines for Health Care Providers for the Prevention, Identification, and Management of Lead Exposure in Children. (2019, September). Retrieved November 5, 2019, from https://www.health.ny.gov/publications/6671.pdf. 
 
